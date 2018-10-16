@@ -27,8 +27,7 @@ namespace TestRecyclerView
                 .Select(drawableFileInfo => new MyImage { mImageID = int.Parse(drawableFileInfo.GetValue(null).ToString()) })
                 .ToArray();
 
-            mImages = new List<MyImage>();
-            mImages.AddRange(mBuiltInImages);            
+            mImages = new List<MyImage>(mBuiltInImages);         
         }    
 
         public int NumImages
