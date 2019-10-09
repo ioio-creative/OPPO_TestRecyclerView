@@ -23,7 +23,7 @@ namespace TestRecyclerView
 
             mBuiltInImages = drawableFieldInfos
                 .Where(drawableFileInfo => (drawableFileInfo.Name.IndexOf("scrollBar_new_") > -1))
-                .Take(50)
+                .Take(280)
                 .Select(drawableFileInfo => new MyImage { mImageID = int.Parse(drawableFileInfo.GetValue(null).ToString()) })
                 .ToArray();
 
