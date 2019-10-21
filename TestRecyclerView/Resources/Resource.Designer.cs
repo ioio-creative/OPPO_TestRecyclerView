@@ -31,50 +31,50 @@ namespace TestRecyclerView
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010004
-			public const int cardBackgroundColor = 2130771972;
+			// aapt resource value: 0x7F010000
+			public const int cardBackgroundColor = 2130771968;
 			
-			// aapt resource value: 0x7f010005
-			public const int cardCornerRadius = 2130771973;
+			// aapt resource value: 0x7F010001
+			public const int cardCornerRadius = 2130771969;
 			
-			// aapt resource value: 0x7f010006
-			public const int cardElevation = 2130771974;
+			// aapt resource value: 0x7F010002
+			public const int cardElevation = 2130771970;
 			
-			// aapt resource value: 0x7f010007
-			public const int cardMaxElevation = 2130771975;
+			// aapt resource value: 0x7F010003
+			public const int cardMaxElevation = 2130771971;
 			
-			// aapt resource value: 0x7f010009
-			public const int cardPreventCornerOverlap = 2130771977;
+			// aapt resource value: 0x7F010004
+			public const int cardPreventCornerOverlap = 2130771972;
 			
-			// aapt resource value: 0x7f010008
-			public const int cardUseCompatPadding = 2130771976;
+			// aapt resource value: 0x7F010005
+			public const int cardUseCompatPadding = 2130771973;
 			
-			// aapt resource value: 0x7f01000a
-			public const int contentPadding = 2130771978;
+			// aapt resource value: 0x7F010006
+			public const int contentPadding = 2130771974;
 			
-			// aapt resource value: 0x7f01000e
-			public const int contentPaddingBottom = 2130771982;
+			// aapt resource value: 0x7F010007
+			public const int contentPaddingBottom = 2130771975;
 			
-			// aapt resource value: 0x7f01000b
-			public const int contentPaddingLeft = 2130771979;
+			// aapt resource value: 0x7F010008
+			public const int contentPaddingLeft = 2130771976;
 			
-			// aapt resource value: 0x7f01000c
-			public const int contentPaddingRight = 2130771980;
+			// aapt resource value: 0x7F010009
+			public const int contentPaddingRight = 2130771977;
 			
-			// aapt resource value: 0x7f01000d
-			public const int contentPaddingTop = 2130771981;
+			// aapt resource value: 0x7F01000A
+			public const int contentPaddingTop = 2130771978;
 			
-			// aapt resource value: 0x7f010000
-			public const int layoutManager = 2130771968;
+			// aapt resource value: 0x7F01000B
+			public const int layoutManager = 2130771979;
 			
-			// aapt resource value: 0x7f010002
-			public const int reverseLayout = 2130771970;
+			// aapt resource value: 0x7F01000C
+			public const int reverseLayout = 2130771980;
 			
-			// aapt resource value: 0x7f010001
-			public const int spanCount = 2130771969;
+			// aapt resource value: 0x7F01000D
+			public const int spanCount = 2130771981;
 			
-			// aapt resource value: 0x7f010003
-			public const int stackFromEnd = 2130771971;
+			// aapt resource value: 0x7F01000E
+			public const int stackFromEnd = 2130771982;
 			
 			static Attribute()
 			{
@@ -89,17 +89,17 @@ namespace TestRecyclerView
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f070000
-			public const int cardview_dark_background = 2131165184;
+			// aapt resource value: 0x7F020000
+			public const int cardview_dark_background = 2130837504;
 			
-			// aapt resource value: 0x7f070001
-			public const int cardview_light_background = 2131165185;
+			// aapt resource value: 0x7F020001
+			public const int cardview_light_background = 2130837505;
 			
-			// aapt resource value: 0x7f070002
-			public const int cardview_shadow_end_color = 2131165186;
+			// aapt resource value: 0x7F020002
+			public const int cardview_shadow_end_color = 2130837506;
 			
-			// aapt resource value: 0x7f070003
-			public const int cardview_shadow_start_color = 2131165187;
+			// aapt resource value: 0x7F020003
+			public const int cardview_shadow_start_color = 2130837507;
 			
 			static Color()
 			{
@@ -114,23 +114,23 @@ namespace TestRecyclerView
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f040003
-			public const int cardview_compat_inset_shadow = 2130968579;
+			// aapt resource value: 0x7F030000
+			public const int cardview_compat_inset_shadow = 2130903040;
 			
-			// aapt resource value: 0x7f040004
-			public const int cardview_default_elevation = 2130968580;
+			// aapt resource value: 0x7F030001
+			public const int cardview_default_elevation = 2130903041;
 			
-			// aapt resource value: 0x7f040005
-			public const int cardview_default_radius = 2130968581;
+			// aapt resource value: 0x7F030002
+			public const int cardview_default_radius = 2130903042;
 			
-			// aapt resource value: 0x7f040000
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2130968576;
+			// aapt resource value: 0x7F030003
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2130903043;
 			
-			// aapt resource value: 0x7f040001
-			public const int item_touch_helper_swipe_escape_max_velocity = 2130968577;
+			// aapt resource value: 0x7F030004
+			public const int item_touch_helper_swipe_escape_max_velocity = 2130903044;
 			
-			// aapt resource value: 0x7f040002
-			public const int item_touch_helper_swipe_escape_velocity = 2130968578;
+			// aapt resource value: 0x7F030005
+			public const int item_touch_helper_swipe_escape_velocity = 2130903045;
 			
 			static Dimension()
 			{
@@ -145,815 +145,1289 @@ namespace TestRecyclerView
 		public partial class Drawable
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			// aapt resource value: 0x7F040000
+			public const int Icon = 2130968576;
 			
-			// aapt resource value: 0x7f020001
-			public const int scrollBar_new_00000 = 2130837505;
+			// aapt resource value: 0x7F040001
+			public const int scrollBar_new_00000 = 2130968577;
 			
-			// aapt resource value: 0x7f020002
-			public const int scrollBar_new_00001 = 2130837506;
+			// aapt resource value: 0x7F040002
+			public const int scrollBar_new_00001 = 2130968578;
 			
-			// aapt resource value: 0x7f020003
-			public const int scrollBar_new_00002 = 2130837507;
+			// aapt resource value: 0x7F040003
+			public const int scrollBar_new_00002 = 2130968579;
 			
-			// aapt resource value: 0x7f020004
-			public const int scrollBar_new_00003 = 2130837508;
+			// aapt resource value: 0x7F040004
+			public const int scrollBar_new_00003 = 2130968580;
 			
-			// aapt resource value: 0x7f020005
-			public const int scrollBar_new_00004 = 2130837509;
+			// aapt resource value: 0x7F040005
+			public const int scrollBar_new_00004 = 2130968581;
 			
-			// aapt resource value: 0x7f020006
-			public const int scrollBar_new_00005 = 2130837510;
+			// aapt resource value: 0x7F040006
+			public const int scrollBar_new_00005 = 2130968582;
 			
-			// aapt resource value: 0x7f020007
-			public const int scrollBar_new_00006 = 2130837511;
+			// aapt resource value: 0x7F040007
+			public const int scrollBar_new_00006 = 2130968583;
 			
-			// aapt resource value: 0x7f020008
-			public const int scrollBar_new_00007 = 2130837512;
+			// aapt resource value: 0x7F040008
+			public const int scrollBar_new_00007 = 2130968584;
 			
-			// aapt resource value: 0x7f020009
-			public const int scrollBar_new_00008 = 2130837513;
+			// aapt resource value: 0x7F040009
+			public const int scrollBar_new_00008 = 2130968585;
 			
-			// aapt resource value: 0x7f02000a
-			public const int scrollBar_new_00009 = 2130837514;
+			// aapt resource value: 0x7F04000A
+			public const int scrollBar_new_00009 = 2130968586;
 			
-			// aapt resource value: 0x7f02000b
-			public const int scrollBar_new_00010 = 2130837515;
+			// aapt resource value: 0x7F04000B
+			public const int scrollBar_new_00010 = 2130968587;
 			
-			// aapt resource value: 0x7f02000c
-			public const int scrollBar_new_00011 = 2130837516;
+			// aapt resource value: 0x7F04000C
+			public const int scrollBar_new_00011 = 2130968588;
 			
-			// aapt resource value: 0x7f02000d
-			public const int scrollBar_new_00012 = 2130837517;
+			// aapt resource value: 0x7F04000D
+			public const int scrollBar_new_00012 = 2130968589;
 			
-			// aapt resource value: 0x7f02000e
-			public const int scrollBar_new_00013 = 2130837518;
+			// aapt resource value: 0x7F04000E
+			public const int scrollBar_new_00013 = 2130968590;
 			
-			// aapt resource value: 0x7f02000f
-			public const int scrollBar_new_00014 = 2130837519;
+			// aapt resource value: 0x7F04000F
+			public const int scrollBar_new_00014 = 2130968591;
 			
-			// aapt resource value: 0x7f020010
-			public const int scrollBar_new_00015 = 2130837520;
+			// aapt resource value: 0x7F040010
+			public const int scrollBar_new_00015 = 2130968592;
 			
-			// aapt resource value: 0x7f020011
-			public const int scrollBar_new_00016 = 2130837521;
+			// aapt resource value: 0x7F040011
+			public const int scrollBar_new_00016 = 2130968593;
 			
-			// aapt resource value: 0x7f020012
-			public const int scrollBar_new_00017 = 2130837522;
+			// aapt resource value: 0x7F040012
+			public const int scrollBar_new_00017 = 2130968594;
 			
-			// aapt resource value: 0x7f020013
-			public const int scrollBar_new_00018 = 2130837523;
+			// aapt resource value: 0x7F040013
+			public const int scrollBar_new_00018 = 2130968595;
 			
-			// aapt resource value: 0x7f020014
-			public const int scrollBar_new_00019 = 2130837524;
+			// aapt resource value: 0x7F040014
+			public const int scrollBar_new_00019 = 2130968596;
 			
-			// aapt resource value: 0x7f020015
-			public const int scrollBar_new_00020 = 2130837525;
+			// aapt resource value: 0x7F040015
+			public const int scrollBar_new_00020 = 2130968597;
 			
-			// aapt resource value: 0x7f020016
-			public const int scrollBar_new_00021 = 2130837526;
+			// aapt resource value: 0x7F040016
+			public const int scrollBar_new_00021 = 2130968598;
 			
-			// aapt resource value: 0x7f020017
-			public const int scrollBar_new_00022 = 2130837527;
+			// aapt resource value: 0x7F040017
+			public const int scrollBar_new_00022 = 2130968599;
 			
-			// aapt resource value: 0x7f020018
-			public const int scrollBar_new_00023 = 2130837528;
+			// aapt resource value: 0x7F040018
+			public const int scrollBar_new_00023 = 2130968600;
 			
-			// aapt resource value: 0x7f020019
-			public const int scrollBar_new_00024 = 2130837529;
+			// aapt resource value: 0x7F040019
+			public const int scrollBar_new_00024 = 2130968601;
 			
-			// aapt resource value: 0x7f02001a
-			public const int scrollBar_new_00025 = 2130837530;
+			// aapt resource value: 0x7F04001A
+			public const int scrollBar_new_00025 = 2130968602;
 			
-			// aapt resource value: 0x7f02001b
-			public const int scrollBar_new_00026 = 2130837531;
+			// aapt resource value: 0x7F04001B
+			public const int scrollBar_new_00026 = 2130968603;
 			
-			// aapt resource value: 0x7f02001c
-			public const int scrollBar_new_00027 = 2130837532;
+			// aapt resource value: 0x7F04001C
+			public const int scrollBar_new_00027 = 2130968604;
 			
-			// aapt resource value: 0x7f02001d
-			public const int scrollBar_new_00028 = 2130837533;
+			// aapt resource value: 0x7F04001D
+			public const int scrollBar_new_00028 = 2130968605;
 			
-			// aapt resource value: 0x7f02001e
-			public const int scrollBar_new_00029 = 2130837534;
+			// aapt resource value: 0x7F04001E
+			public const int scrollBar_new_00029 = 2130968606;
 			
-			// aapt resource value: 0x7f02001f
-			public const int scrollBar_new_00030 = 2130837535;
+			// aapt resource value: 0x7F04001F
+			public const int scrollBar_new_00030 = 2130968607;
 			
-			// aapt resource value: 0x7f020020
-			public const int scrollBar_new_00031 = 2130837536;
+			// aapt resource value: 0x7F040020
+			public const int scrollBar_new_00031 = 2130968608;
 			
-			// aapt resource value: 0x7f020021
-			public const int scrollBar_new_00032 = 2130837537;
+			// aapt resource value: 0x7F040021
+			public const int scrollBar_new_00032 = 2130968609;
 			
-			// aapt resource value: 0x7f020022
-			public const int scrollBar_new_00033 = 2130837538;
+			// aapt resource value: 0x7F040022
+			public const int scrollBar_new_00033 = 2130968610;
 			
-			// aapt resource value: 0x7f020023
-			public const int scrollBar_new_00034 = 2130837539;
+			// aapt resource value: 0x7F040023
+			public const int scrollBar_new_00034 = 2130968611;
 			
-			// aapt resource value: 0x7f020024
-			public const int scrollBar_new_00035 = 2130837540;
+			// aapt resource value: 0x7F040024
+			public const int scrollBar_new_00035 = 2130968612;
 			
-			// aapt resource value: 0x7f020025
-			public const int scrollBar_new_00036 = 2130837541;
+			// aapt resource value: 0x7F040025
+			public const int scrollBar_new_00036 = 2130968613;
 			
-			// aapt resource value: 0x7f020026
-			public const int scrollBar_new_00037 = 2130837542;
+			// aapt resource value: 0x7F040026
+			public const int scrollBar_new_00037 = 2130968614;
 			
-			// aapt resource value: 0x7f020027
-			public const int scrollBar_new_00038 = 2130837543;
+			// aapt resource value: 0x7F040027
+			public const int scrollBar_new_00038 = 2130968615;
 			
-			// aapt resource value: 0x7f020028
-			public const int scrollBar_new_00039 = 2130837544;
+			// aapt resource value: 0x7F040028
+			public const int scrollBar_new_00039 = 2130968616;
 			
-			// aapt resource value: 0x7f020029
-			public const int scrollBar_new_00040 = 2130837545;
+			// aapt resource value: 0x7F040029
+			public const int scrollBar_new_00040 = 2130968617;
 			
-			// aapt resource value: 0x7f02002a
-			public const int scrollBar_new_00041 = 2130837546;
+			// aapt resource value: 0x7F04002A
+			public const int scrollBar_new_00041 = 2130968618;
 			
-			// aapt resource value: 0x7f02002b
-			public const int scrollBar_new_00042 = 2130837547;
+			// aapt resource value: 0x7F04002B
+			public const int scrollBar_new_00042 = 2130968619;
 			
-			// aapt resource value: 0x7f02002c
-			public const int scrollBar_new_00043 = 2130837548;
+			// aapt resource value: 0x7F04002C
+			public const int scrollBar_new_00043 = 2130968620;
 			
-			// aapt resource value: 0x7f02002d
-			public const int scrollBar_new_00044 = 2130837549;
+			// aapt resource value: 0x7F04002D
+			public const int scrollBar_new_00044 = 2130968621;
 			
-			// aapt resource value: 0x7f02002e
-			public const int scrollBar_new_00045 = 2130837550;
+			// aapt resource value: 0x7F04002E
+			public const int scrollBar_new_00045 = 2130968622;
 			
-			// aapt resource value: 0x7f02002f
-			public const int scrollBar_new_00046 = 2130837551;
+			// aapt resource value: 0x7F04002F
+			public const int scrollBar_new_00046 = 2130968623;
 			
-			// aapt resource value: 0x7f020030
-			public const int scrollBar_new_00047 = 2130837552;
+			// aapt resource value: 0x7F040030
+			public const int scrollBar_new_00047 = 2130968624;
 			
-			// aapt resource value: 0x7f020031
-			public const int scrollBar_new_00048 = 2130837553;
+			// aapt resource value: 0x7F040031
+			public const int scrollBar_new_00048 = 2130968625;
 			
-			// aapt resource value: 0x7f020032
-			public const int scrollBar_new_00049 = 2130837554;
+			// aapt resource value: 0x7F040032
+			public const int scrollBar_new_00049 = 2130968626;
 			
-			// aapt resource value: 0x7f020033
-			public const int scrollBar_new_00050 = 2130837555;
+			// aapt resource value: 0x7F040033
+			public const int scrollBar_new_00050 = 2130968627;
 			
-			// aapt resource value: 0x7f020034
-			public const int scrollBar_new_00051 = 2130837556;
+			// aapt resource value: 0x7F040034
+			public const int scrollBar_new_00051 = 2130968628;
 			
-			// aapt resource value: 0x7f020035
-			public const int scrollBar_new_00052 = 2130837557;
+			// aapt resource value: 0x7F040035
+			public const int scrollBar_new_00052 = 2130968629;
 			
-			// aapt resource value: 0x7f020036
-			public const int scrollBar_new_00053 = 2130837558;
+			// aapt resource value: 0x7F040036
+			public const int scrollBar_new_00053 = 2130968630;
 			
-			// aapt resource value: 0x7f020037
-			public const int scrollBar_new_00054 = 2130837559;
+			// aapt resource value: 0x7F040037
+			public const int scrollBar_new_00054 = 2130968631;
 			
-			// aapt resource value: 0x7f020038
-			public const int scrollBar_new_00055 = 2130837560;
+			// aapt resource value: 0x7F040038
+			public const int scrollBar_new_00055 = 2130968632;
 			
-			// aapt resource value: 0x7f020039
-			public const int scrollBar_new_00056 = 2130837561;
+			// aapt resource value: 0x7F040039
+			public const int scrollBar_new_00056 = 2130968633;
 			
-			// aapt resource value: 0x7f02003a
-			public const int scrollBar_new_00057 = 2130837562;
+			// aapt resource value: 0x7F04003A
+			public const int scrollBar_new_00057 = 2130968634;
 			
-			// aapt resource value: 0x7f02003b
-			public const int scrollBar_new_00058 = 2130837563;
+			// aapt resource value: 0x7F04003B
+			public const int scrollBar_new_00058 = 2130968635;
 			
-			// aapt resource value: 0x7f02003c
-			public const int scrollBar_new_00059 = 2130837564;
+			// aapt resource value: 0x7F04003C
+			public const int scrollBar_new_00059 = 2130968636;
 			
-			// aapt resource value: 0x7f02003d
-			public const int scrollBar_new_00060 = 2130837565;
+			// aapt resource value: 0x7F04003D
+			public const int scrollBar_new_00060 = 2130968637;
 			
-			// aapt resource value: 0x7f02003e
-			public const int scrollBar_new_00061 = 2130837566;
+			// aapt resource value: 0x7F04003E
+			public const int scrollBar_new_00061 = 2130968638;
 			
-			// aapt resource value: 0x7f02003f
-			public const int scrollBar_new_00062 = 2130837567;
+			// aapt resource value: 0x7F04003F
+			public const int scrollBar_new_00062 = 2130968639;
 			
-			// aapt resource value: 0x7f020040
-			public const int scrollBar_new_00063 = 2130837568;
+			// aapt resource value: 0x7F040040
+			public const int scrollBar_new_00063 = 2130968640;
 			
-			// aapt resource value: 0x7f020041
-			public const int scrollBar_new_00064 = 2130837569;
+			// aapt resource value: 0x7F040041
+			public const int scrollBar_new_00064 = 2130968641;
 			
-			// aapt resource value: 0x7f020042
-			public const int scrollBar_new_00065 = 2130837570;
+			// aapt resource value: 0x7F040042
+			public const int scrollBar_new_00065 = 2130968642;
 			
-			// aapt resource value: 0x7f020043
-			public const int scrollBar_new_00066 = 2130837571;
+			// aapt resource value: 0x7F040043
+			public const int scrollBar_new_00066 = 2130968643;
 			
-			// aapt resource value: 0x7f020044
-			public const int scrollBar_new_00067 = 2130837572;
+			// aapt resource value: 0x7F040044
+			public const int scrollBar_new_00067 = 2130968644;
 			
-			// aapt resource value: 0x7f020045
-			public const int scrollBar_new_00068 = 2130837573;
+			// aapt resource value: 0x7F040045
+			public const int scrollBar_new_00068 = 2130968645;
 			
-			// aapt resource value: 0x7f020046
-			public const int scrollBar_new_00069 = 2130837574;
+			// aapt resource value: 0x7F040046
+			public const int scrollBar_new_00069 = 2130968646;
 			
-			// aapt resource value: 0x7f020047
-			public const int scrollBar_new_00070 = 2130837575;
+			// aapt resource value: 0x7F040047
+			public const int scrollBar_new_00070 = 2130968647;
 			
-			// aapt resource value: 0x7f020048
-			public const int scrollBar_new_00071 = 2130837576;
+			// aapt resource value: 0x7F040048
+			public const int scrollBar_new_00071 = 2130968648;
 			
-			// aapt resource value: 0x7f020049
-			public const int scrollBar_new_00072 = 2130837577;
+			// aapt resource value: 0x7F040049
+			public const int scrollBar_new_00072 = 2130968649;
 			
-			// aapt resource value: 0x7f02004a
-			public const int scrollBar_new_00073 = 2130837578;
+			// aapt resource value: 0x7F04004A
+			public const int scrollBar_new_00073 = 2130968650;
 			
-			// aapt resource value: 0x7f02004b
-			public const int scrollBar_new_00074 = 2130837579;
+			// aapt resource value: 0x7F04004B
+			public const int scrollBar_new_00074 = 2130968651;
 			
-			// aapt resource value: 0x7f02004c
-			public const int scrollBar_new_00075 = 2130837580;
+			// aapt resource value: 0x7F04004C
+			public const int scrollBar_new_00075 = 2130968652;
 			
-			// aapt resource value: 0x7f02004d
-			public const int scrollBar_new_00076 = 2130837581;
+			// aapt resource value: 0x7F04004D
+			public const int scrollBar_new_00076 = 2130968653;
 			
-			// aapt resource value: 0x7f02004e
-			public const int scrollBar_new_00077 = 2130837582;
+			// aapt resource value: 0x7F04004E
+			public const int scrollBar_new_00077 = 2130968654;
 			
-			// aapt resource value: 0x7f02004f
-			public const int scrollBar_new_00078 = 2130837583;
+			// aapt resource value: 0x7F04004F
+			public const int scrollBar_new_00078 = 2130968655;
 			
-			// aapt resource value: 0x7f020050
-			public const int scrollBar_new_00079 = 2130837584;
+			// aapt resource value: 0x7F040050
+			public const int scrollBar_new_00079 = 2130968656;
 			
-			// aapt resource value: 0x7f020051
-			public const int scrollBar_new_00080 = 2130837585;
+			// aapt resource value: 0x7F040051
+			public const int scrollBar_new_00080 = 2130968657;
 			
-			// aapt resource value: 0x7f020052
-			public const int scrollBar_new_00081 = 2130837586;
+			// aapt resource value: 0x7F040052
+			public const int scrollBar_new_00081 = 2130968658;
 			
-			// aapt resource value: 0x7f020053
-			public const int scrollBar_new_00082 = 2130837587;
+			// aapt resource value: 0x7F040053
+			public const int scrollBar_new_00082 = 2130968659;
 			
-			// aapt resource value: 0x7f020054
-			public const int scrollBar_new_00083 = 2130837588;
+			// aapt resource value: 0x7F040054
+			public const int scrollBar_new_00083 = 2130968660;
 			
-			// aapt resource value: 0x7f020055
-			public const int scrollBar_new_00084 = 2130837589;
+			// aapt resource value: 0x7F040055
+			public const int scrollBar_new_00084 = 2130968661;
 			
-			// aapt resource value: 0x7f020056
-			public const int scrollBar_new_00085 = 2130837590;
+			// aapt resource value: 0x7F040056
+			public const int scrollBar_new_00085 = 2130968662;
 			
-			// aapt resource value: 0x7f020057
-			public const int scrollBar_new_00086 = 2130837591;
+			// aapt resource value: 0x7F040057
+			public const int scrollBar_new_00086 = 2130968663;
 			
-			// aapt resource value: 0x7f020058
-			public const int scrollBar_new_00087 = 2130837592;
+			// aapt resource value: 0x7F040058
+			public const int scrollBar_new_00087 = 2130968664;
 			
-			// aapt resource value: 0x7f020059
-			public const int scrollBar_new_00088 = 2130837593;
+			// aapt resource value: 0x7F040059
+			public const int scrollBar_new_00088 = 2130968665;
 			
-			// aapt resource value: 0x7f02005a
-			public const int scrollBar_new_00089 = 2130837594;
+			// aapt resource value: 0x7F04005A
+			public const int scrollBar_new_00089 = 2130968666;
 			
-			// aapt resource value: 0x7f02005b
-			public const int scrollBar_new_00090 = 2130837595;
+			// aapt resource value: 0x7F04005B
+			public const int scrollBar_new_00090 = 2130968667;
 			
-			// aapt resource value: 0x7f02005c
-			public const int scrollBar_new_00091 = 2130837596;
+			// aapt resource value: 0x7F04005C
+			public const int scrollBar_new_00091 = 2130968668;
 			
-			// aapt resource value: 0x7f02005d
-			public const int scrollBar_new_00092 = 2130837597;
+			// aapt resource value: 0x7F04005D
+			public const int scrollBar_new_00092 = 2130968669;
 			
-			// aapt resource value: 0x7f02005e
-			public const int scrollBar_new_00093 = 2130837598;
+			// aapt resource value: 0x7F04005E
+			public const int scrollBar_new_00093 = 2130968670;
 			
-			// aapt resource value: 0x7f02005f
-			public const int scrollBar_new_00094 = 2130837599;
+			// aapt resource value: 0x7F04005F
+			public const int scrollBar_new_00094 = 2130968671;
 			
-			// aapt resource value: 0x7f020060
-			public const int scrollBar_new_00095 = 2130837600;
+			// aapt resource value: 0x7F040060
+			public const int scrollBar_new_00095 = 2130968672;
 			
-			// aapt resource value: 0x7f020061
-			public const int scrollBar_new_00096 = 2130837601;
+			// aapt resource value: 0x7F040061
+			public const int scrollBar_new_00096 = 2130968673;
 			
-			// aapt resource value: 0x7f020062
-			public const int scrollBar_new_00097 = 2130837602;
+			// aapt resource value: 0x7F040062
+			public const int scrollBar_new_00097 = 2130968674;
 			
-			// aapt resource value: 0x7f020063
-			public const int scrollBar_new_00098 = 2130837603;
+			// aapt resource value: 0x7F040063
+			public const int scrollBar_new_00098 = 2130968675;
 			
-			// aapt resource value: 0x7f020064
-			public const int scrollBar_new_00099 = 2130837604;
+			// aapt resource value: 0x7F040064
+			public const int scrollBar_new_00099 = 2130968676;
 			
-			// aapt resource value: 0x7f020065
-			public const int scrollBar_new_00100 = 2130837605;
+			// aapt resource value: 0x7F040065
+			public const int scrollBar_new_00100 = 2130968677;
 			
-			// aapt resource value: 0x7f020066
-			public const int scrollBar_new_00101 = 2130837606;
+			// aapt resource value: 0x7F040066
+			public const int scrollBar_new_00101 = 2130968678;
 			
-			// aapt resource value: 0x7f020067
-			public const int scrollBar_new_00102 = 2130837607;
+			// aapt resource value: 0x7F040067
+			public const int scrollBar_new_00102 = 2130968679;
 			
-			// aapt resource value: 0x7f020068
-			public const int scrollBar_new_00103 = 2130837608;
+			// aapt resource value: 0x7F040068
+			public const int scrollBar_new_00103 = 2130968680;
 			
-			// aapt resource value: 0x7f020069
-			public const int scrollBar_new_00104 = 2130837609;
+			// aapt resource value: 0x7F040069
+			public const int scrollBar_new_00104 = 2130968681;
 			
-			// aapt resource value: 0x7f02006a
-			public const int scrollBar_new_00105 = 2130837610;
+			// aapt resource value: 0x7F04006A
+			public const int scrollBar_new_00105 = 2130968682;
 			
-			// aapt resource value: 0x7f02006b
-			public const int scrollBar_new_00106 = 2130837611;
+			// aapt resource value: 0x7F04006B
+			public const int scrollBar_new_00106 = 2130968683;
 			
-			// aapt resource value: 0x7f02006c
-			public const int scrollBar_new_00107 = 2130837612;
+			// aapt resource value: 0x7F04006C
+			public const int scrollBar_new_00107 = 2130968684;
 			
-			// aapt resource value: 0x7f02006d
-			public const int scrollBar_new_00108 = 2130837613;
+			// aapt resource value: 0x7F04006D
+			public const int scrollBar_new_00108 = 2130968685;
 			
-			// aapt resource value: 0x7f02006e
-			public const int scrollBar_new_00109 = 2130837614;
+			// aapt resource value: 0x7F04006E
+			public const int scrollBar_new_00109 = 2130968686;
 			
-			// aapt resource value: 0x7f02006f
-			public const int scrollBar_new_00110 = 2130837615;
+			// aapt resource value: 0x7F04006F
+			public const int scrollBar_new_00110 = 2130968687;
 			
-			// aapt resource value: 0x7f020070
-			public const int scrollBar_new_00111 = 2130837616;
+			// aapt resource value: 0x7F040070
+			public const int scrollBar_new_00111 = 2130968688;
 			
-			// aapt resource value: 0x7f020071
-			public const int scrollBar_new_00112 = 2130837617;
+			// aapt resource value: 0x7F040071
+			public const int scrollBar_new_00112 = 2130968689;
 			
-			// aapt resource value: 0x7f020072
-			public const int scrollBar_new_00113 = 2130837618;
+			// aapt resource value: 0x7F040072
+			public const int scrollBar_new_00113 = 2130968690;
 			
-			// aapt resource value: 0x7f020073
-			public const int scrollBar_new_00114 = 2130837619;
+			// aapt resource value: 0x7F040073
+			public const int scrollBar_new_00114 = 2130968691;
 			
-			// aapt resource value: 0x7f020074
-			public const int scrollBar_new_00115 = 2130837620;
+			// aapt resource value: 0x7F040074
+			public const int scrollBar_new_00115 = 2130968692;
 			
-			// aapt resource value: 0x7f020075
-			public const int scrollBar_new_00116 = 2130837621;
+			// aapt resource value: 0x7F040075
+			public const int scrollBar_new_00116 = 2130968693;
 			
-			// aapt resource value: 0x7f020076
-			public const int scrollBar_new_00117 = 2130837622;
+			// aapt resource value: 0x7F040076
+			public const int scrollBar_new_00117 = 2130968694;
 			
-			// aapt resource value: 0x7f020077
-			public const int scrollBar_new_00118 = 2130837623;
+			// aapt resource value: 0x7F040077
+			public const int scrollBar_new_00118 = 2130968695;
 			
-			// aapt resource value: 0x7f020078
-			public const int scrollBar_new_00119 = 2130837624;
+			// aapt resource value: 0x7F040078
+			public const int scrollBar_new_00119 = 2130968696;
 			
-			// aapt resource value: 0x7f020079
-			public const int scrollBar_new_00120 = 2130837625;
+			// aapt resource value: 0x7F040079
+			public const int scrollBar_new_00120 = 2130968697;
 			
-			// aapt resource value: 0x7f02007a
-			public const int scrollBar_new_00121 = 2130837626;
+			// aapt resource value: 0x7F04007A
+			public const int scrollBar_new_00121 = 2130968698;
 			
-			// aapt resource value: 0x7f02007b
-			public const int scrollBar_new_00122 = 2130837627;
+			// aapt resource value: 0x7F04007B
+			public const int scrollBar_new_00122 = 2130968699;
 			
-			// aapt resource value: 0x7f02007c
-			public const int scrollBar_new_00123 = 2130837628;
+			// aapt resource value: 0x7F04007C
+			public const int scrollBar_new_00123 = 2130968700;
 			
-			// aapt resource value: 0x7f02007d
-			public const int scrollBar_new_00124 = 2130837629;
+			// aapt resource value: 0x7F04007D
+			public const int scrollBar_new_00124 = 2130968701;
 			
-			// aapt resource value: 0x7f02007e
-			public const int scrollBar_new_00125 = 2130837630;
+			// aapt resource value: 0x7F04007E
+			public const int scrollBar_new_00125 = 2130968702;
 			
-			// aapt resource value: 0x7f02007f
-			public const int scrollBar_new_00126 = 2130837631;
+			// aapt resource value: 0x7F04007F
+			public const int scrollBar_new_00126 = 2130968703;
 			
-			// aapt resource value: 0x7f020080
-			public const int scrollBar_new_00127 = 2130837632;
+			// aapt resource value: 0x7F040080
+			public const int scrollBar_new_00127 = 2130968704;
 			
-			// aapt resource value: 0x7f020081
-			public const int scrollBar_new_00128 = 2130837633;
+			// aapt resource value: 0x7F040081
+			public const int scrollBar_new_00128 = 2130968705;
 			
-			// aapt resource value: 0x7f020082
-			public const int scrollBar_new_00129 = 2130837634;
+			// aapt resource value: 0x7F040082
+			public const int scrollBar_new_00129 = 2130968706;
 			
-			// aapt resource value: 0x7f020083
-			public const int scrollBar_new_00130 = 2130837635;
+			// aapt resource value: 0x7F040083
+			public const int scrollBar_new_00130 = 2130968707;
 			
-			// aapt resource value: 0x7f020084
-			public const int scrollBar_new_00131 = 2130837636;
+			// aapt resource value: 0x7F040084
+			public const int scrollBar_new_00131 = 2130968708;
 			
-			// aapt resource value: 0x7f020085
-			public const int scrollBar_new_00132 = 2130837637;
+			// aapt resource value: 0x7F040085
+			public const int scrollBar_new_00132 = 2130968709;
 			
-			// aapt resource value: 0x7f020086
-			public const int scrollBar_new_00133 = 2130837638;
+			// aapt resource value: 0x7F040086
+			public const int scrollBar_new_00133 = 2130968710;
 			
-			// aapt resource value: 0x7f020087
-			public const int scrollBar_new_00134 = 2130837639;
+			// aapt resource value: 0x7F040087
+			public const int scrollBar_new_00134 = 2130968711;
 			
-			// aapt resource value: 0x7f020088
-			public const int scrollBar_new_00135 = 2130837640;
+			// aapt resource value: 0x7F040088
+			public const int scrollBar_new_00135 = 2130968712;
 			
-			// aapt resource value: 0x7f020089
-			public const int scrollBar_new_00136 = 2130837641;
+			// aapt resource value: 0x7F040089
+			public const int scrollBar_new_00136 = 2130968713;
 			
-			// aapt resource value: 0x7f02008a
-			public const int scrollBar_new_00137 = 2130837642;
+			// aapt resource value: 0x7F04008A
+			public const int scrollBar_new_00137 = 2130968714;
 			
-			// aapt resource value: 0x7f02008b
-			public const int scrollBar_new_00138 = 2130837643;
+			// aapt resource value: 0x7F04008B
+			public const int scrollBar_new_00138 = 2130968715;
 			
-			// aapt resource value: 0x7f02008c
-			public const int scrollBar_new_00139 = 2130837644;
+			// aapt resource value: 0x7F04008C
+			public const int scrollBar_new_00139 = 2130968716;
 			
-			// aapt resource value: 0x7f02008d
-			public const int scrollBar_new_00140 = 2130837645;
+			// aapt resource value: 0x7F04008D
+			public const int scrollBar_new_00140 = 2130968717;
 			
-			// aapt resource value: 0x7f02008e
-			public const int scrollBar_new_00141 = 2130837646;
+			// aapt resource value: 0x7F04008E
+			public const int scrollBar_new_00141 = 2130968718;
 			
-			// aapt resource value: 0x7f02008f
-			public const int scrollBar_new_00142 = 2130837647;
+			// aapt resource value: 0x7F04008F
+			public const int scrollBar_new_00142 = 2130968719;
 			
-			// aapt resource value: 0x7f020090
-			public const int scrollBar_new_00143 = 2130837648;
+			// aapt resource value: 0x7F040090
+			public const int scrollBar_new_00143 = 2130968720;
 			
-			// aapt resource value: 0x7f020091
-			public const int scrollBar_new_00144 = 2130837649;
+			// aapt resource value: 0x7F040091
+			public const int scrollBar_new_00144 = 2130968721;
 			
-			// aapt resource value: 0x7f020092
-			public const int scrollBar_new_00145 = 2130837650;
+			// aapt resource value: 0x7F040092
+			public const int scrollBar_new_00145 = 2130968722;
 			
-			// aapt resource value: 0x7f020093
-			public const int scrollBar_new_00146 = 2130837651;
+			// aapt resource value: 0x7F040093
+			public const int scrollBar_new_00146 = 2130968723;
 			
-			// aapt resource value: 0x7f020094
-			public const int scrollBar_new_00147 = 2130837652;
+			// aapt resource value: 0x7F040094
+			public const int scrollBar_new_00147 = 2130968724;
 			
-			// aapt resource value: 0x7f020095
-			public const int scrollBar_new_00148 = 2130837653;
+			// aapt resource value: 0x7F040095
+			public const int scrollBar_new_00148 = 2130968725;
 			
-			// aapt resource value: 0x7f020096
-			public const int scrollBar_new_00149 = 2130837654;
+			// aapt resource value: 0x7F040096
+			public const int scrollBar_new_00149 = 2130968726;
 			
-			// aapt resource value: 0x7f020097
-			public const int scrollBar_new_00150 = 2130837655;
+			// aapt resource value: 0x7F040097
+			public const int scrollBar_new_00150 = 2130968727;
 			
-			// aapt resource value: 0x7f020098
-			public const int scrollBar_new_00151 = 2130837656;
+			// aapt resource value: 0x7F040098
+			public const int scrollBar_new_00151 = 2130968728;
 			
-			// aapt resource value: 0x7f020099
-			public const int scrollBar_new_00152 = 2130837657;
+			// aapt resource value: 0x7F040099
+			public const int scrollBar_new_00152 = 2130968729;
 			
-			// aapt resource value: 0x7f02009a
-			public const int scrollBar_new_00153 = 2130837658;
+			// aapt resource value: 0x7F04009A
+			public const int scrollBar_new_00153 = 2130968730;
 			
-			// aapt resource value: 0x7f02009b
-			public const int scrollBar_new_00154 = 2130837659;
+			// aapt resource value: 0x7F04009B
+			public const int scrollBar_new_00154 = 2130968731;
 			
-			// aapt resource value: 0x7f02009c
-			public const int scrollBar_new_00155 = 2130837660;
+			// aapt resource value: 0x7F04009C
+			public const int scrollBar_new_00155 = 2130968732;
 			
-			// aapt resource value: 0x7f02009d
-			public const int scrollBar_new_00156 = 2130837661;
+			// aapt resource value: 0x7F04009D
+			public const int scrollBar_new_00156 = 2130968733;
 			
-			// aapt resource value: 0x7f02009e
-			public const int scrollBar_new_00157 = 2130837662;
+			// aapt resource value: 0x7F04009E
+			public const int scrollBar_new_00157 = 2130968734;
 			
-			// aapt resource value: 0x7f02009f
-			public const int scrollBar_new_00158 = 2130837663;
+			// aapt resource value: 0x7F04009F
+			public const int scrollBar_new_00158 = 2130968735;
 			
-			// aapt resource value: 0x7f0200a0
-			public const int scrollBar_new_00159 = 2130837664;
+			// aapt resource value: 0x7F0400A0
+			public const int scrollBar_new_00159 = 2130968736;
 			
-			// aapt resource value: 0x7f0200a1
-			public const int scrollBar_new_00160 = 2130837665;
+			// aapt resource value: 0x7F0400A1
+			public const int scrollBar_new_00160 = 2130968737;
 			
-			// aapt resource value: 0x7f0200a2
-			public const int scrollBar_new_00161 = 2130837666;
+			// aapt resource value: 0x7F0400A2
+			public const int scrollBar_new_00161 = 2130968738;
 			
-			// aapt resource value: 0x7f0200a3
-			public const int scrollBar_new_00162 = 2130837667;
+			// aapt resource value: 0x7F0400A3
+			public const int scrollBar_new_00162 = 2130968739;
 			
-			// aapt resource value: 0x7f0200a4
-			public const int scrollBar_new_00163 = 2130837668;
+			// aapt resource value: 0x7F0400A4
+			public const int scrollBar_new_00163 = 2130968740;
 			
-			// aapt resource value: 0x7f0200a5
-			public const int scrollBar_new_00164 = 2130837669;
+			// aapt resource value: 0x7F0400A5
+			public const int scrollBar_new_00164 = 2130968741;
 			
-			// aapt resource value: 0x7f0200a6
-			public const int scrollBar_new_00165 = 2130837670;
+			// aapt resource value: 0x7F0400A6
+			public const int scrollBar_new_00165 = 2130968742;
 			
-			// aapt resource value: 0x7f0200a7
-			public const int scrollBar_new_00166 = 2130837671;
+			// aapt resource value: 0x7F0400A7
+			public const int scrollBar_new_00166 = 2130968743;
 			
-			// aapt resource value: 0x7f0200a8
-			public const int scrollBar_new_00167 = 2130837672;
+			// aapt resource value: 0x7F0400A8
+			public const int scrollBar_new_00167 = 2130968744;
 			
-			// aapt resource value: 0x7f0200a9
-			public const int scrollBar_new_00168 = 2130837673;
+			// aapt resource value: 0x7F0400A9
+			public const int scrollBar_new_00168 = 2130968745;
 			
-			// aapt resource value: 0x7f0200aa
-			public const int scrollBar_new_00169 = 2130837674;
+			// aapt resource value: 0x7F0400AA
+			public const int scrollBar_new_00169 = 2130968746;
 			
-			// aapt resource value: 0x7f0200ab
-			public const int scrollBar_new_00170 = 2130837675;
+			// aapt resource value: 0x7F0400AB
+			public const int scrollBar_new_00170 = 2130968747;
 			
-			// aapt resource value: 0x7f0200ac
-			public const int scrollBar_new_00171 = 2130837676;
+			// aapt resource value: 0x7F0400AC
+			public const int scrollBar_new_00171 = 2130968748;
 			
-			// aapt resource value: 0x7f0200ad
-			public const int scrollBar_new_00172 = 2130837677;
+			// aapt resource value: 0x7F0400AD
+			public const int scrollBar_new_00172 = 2130968749;
 			
-			// aapt resource value: 0x7f0200ae
-			public const int scrollBar_new_00173 = 2130837678;
+			// aapt resource value: 0x7F0400AE
+			public const int scrollBar_new_00173 = 2130968750;
 			
-			// aapt resource value: 0x7f0200af
-			public const int scrollBar_new_00174 = 2130837679;
+			// aapt resource value: 0x7F0400AF
+			public const int scrollBar_new_00174 = 2130968751;
 			
-			// aapt resource value: 0x7f0200b0
-			public const int scrollBar_new_00175 = 2130837680;
+			// aapt resource value: 0x7F0400B0
+			public const int scrollBar_new_00175 = 2130968752;
 			
-			// aapt resource value: 0x7f0200b1
-			public const int scrollBar_new_00176 = 2130837681;
+			// aapt resource value: 0x7F0400B1
+			public const int scrollBar_new_00176 = 2130968753;
 			
-			// aapt resource value: 0x7f0200b2
-			public const int scrollBar_new_00177 = 2130837682;
+			// aapt resource value: 0x7F0400B2
+			public const int scrollBar_new_00177 = 2130968754;
 			
-			// aapt resource value: 0x7f0200b3
-			public const int scrollBar_new_00178 = 2130837683;
+			// aapt resource value: 0x7F0400B3
+			public const int scrollBar_new_00178 = 2130968755;
 			
-			// aapt resource value: 0x7f0200b4
-			public const int scrollBar_new_00179 = 2130837684;
+			// aapt resource value: 0x7F0400B4
+			public const int scrollBar_new_00179 = 2130968756;
 			
-			// aapt resource value: 0x7f0200b5
-			public const int scrollBar_new_00180 = 2130837685;
+			// aapt resource value: 0x7F0400B5
+			public const int scrollBar_new_00180 = 2130968757;
 			
-			// aapt resource value: 0x7f0200b6
-			public const int scrollBar_new_00181 = 2130837686;
+			// aapt resource value: 0x7F0400B6
+			public const int scrollBar_new_00181 = 2130968758;
 			
-			// aapt resource value: 0x7f0200b7
-			public const int scrollBar_new_00182 = 2130837687;
+			// aapt resource value: 0x7F0400B7
+			public const int scrollBar_new_00182 = 2130968759;
 			
-			// aapt resource value: 0x7f0200b8
-			public const int scrollBar_new_00183 = 2130837688;
+			// aapt resource value: 0x7F0400B8
+			public const int scrollBar_new_00183 = 2130968760;
 			
-			// aapt resource value: 0x7f0200b9
-			public const int scrollBar_new_00184 = 2130837689;
+			// aapt resource value: 0x7F0400B9
+			public const int scrollBar_new_00184 = 2130968761;
 			
-			// aapt resource value: 0x7f0200ba
-			public const int scrollBar_new_00185 = 2130837690;
+			// aapt resource value: 0x7F0400BA
+			public const int scrollBar_new_00185 = 2130968762;
 			
-			// aapt resource value: 0x7f0200bb
-			public const int scrollBar_new_00186 = 2130837691;
+			// aapt resource value: 0x7F0400BB
+			public const int scrollBar_new_00186 = 2130968763;
 			
-			// aapt resource value: 0x7f0200bc
-			public const int scrollBar_new_00187 = 2130837692;
+			// aapt resource value: 0x7F0400BC
+			public const int scrollBar_new_00187 = 2130968764;
 			
-			// aapt resource value: 0x7f0200bd
-			public const int scrollBar_new_00188 = 2130837693;
+			// aapt resource value: 0x7F0400BD
+			public const int scrollBar_new_00188 = 2130968765;
 			
-			// aapt resource value: 0x7f0200be
-			public const int scrollBar_new_00189 = 2130837694;
+			// aapt resource value: 0x7F0400BE
+			public const int scrollBar_new_00189 = 2130968766;
 			
-			// aapt resource value: 0x7f0200bf
-			public const int scrollBar_new_00190 = 2130837695;
+			// aapt resource value: 0x7F0400BF
+			public const int scrollBar_new_00190 = 2130968767;
 			
-			// aapt resource value: 0x7f0200c0
-			public const int scrollBar_new_00191 = 2130837696;
+			// aapt resource value: 0x7F0400C0
+			public const int scrollBar_new_00191 = 2130968768;
 			
-			// aapt resource value: 0x7f0200c1
-			public const int scrollBar_new_00192 = 2130837697;
+			// aapt resource value: 0x7F0400C1
+			public const int scrollBar_new_00192 = 2130968769;
 			
-			// aapt resource value: 0x7f0200c2
-			public const int scrollBar_new_00193 = 2130837698;
+			// aapt resource value: 0x7F0400C2
+			public const int scrollBar_new_00193 = 2130968770;
 			
-			// aapt resource value: 0x7f0200c3
-			public const int scrollBar_new_00194 = 2130837699;
+			// aapt resource value: 0x7F0400C3
+			public const int scrollBar_new_00194 = 2130968771;
 			
-			// aapt resource value: 0x7f0200c4
-			public const int scrollBar_new_00195 = 2130837700;
+			// aapt resource value: 0x7F0400C4
+			public const int scrollBar_new_00195 = 2130968772;
 			
-			// aapt resource value: 0x7f0200c5
-			public const int scrollBar_new_00196 = 2130837701;
+			// aapt resource value: 0x7F0400C5
+			public const int scrollBar_new_00196 = 2130968773;
 			
-			// aapt resource value: 0x7f0200c6
-			public const int scrollBar_new_00197 = 2130837702;
+			// aapt resource value: 0x7F0400C6
+			public const int scrollBar_new_00197 = 2130968774;
 			
-			// aapt resource value: 0x7f0200c7
-			public const int scrollBar_new_00198 = 2130837703;
+			// aapt resource value: 0x7F0400C7
+			public const int scrollBar_new_00198 = 2130968775;
 			
-			// aapt resource value: 0x7f0200c8
-			public const int scrollBar_new_00199 = 2130837704;
+			// aapt resource value: 0x7F0400C8
+			public const int scrollBar_new_00199 = 2130968776;
 			
-			// aapt resource value: 0x7f0200c9
-			public const int scrollBar_new_00200 = 2130837705;
+			// aapt resource value: 0x7F0400C9
+			public const int scrollBar_new_00200 = 2130968777;
 			
-			// aapt resource value: 0x7f0200ca
-			public const int scrollBar_new_00201 = 2130837706;
+			// aapt resource value: 0x7F0400CA
+			public const int scrollBar_new_00201 = 2130968778;
 			
-			// aapt resource value: 0x7f0200cb
-			public const int scrollBar_new_00202 = 2130837707;
+			// aapt resource value: 0x7F0400CB
+			public const int scrollBar_new_00202 = 2130968779;
 			
-			// aapt resource value: 0x7f0200cc
-			public const int scrollBar_new_00203 = 2130837708;
+			// aapt resource value: 0x7F0400CC
+			public const int scrollBar_new_00203 = 2130968780;
 			
-			// aapt resource value: 0x7f0200cd
-			public const int scrollBar_new_00204 = 2130837709;
+			// aapt resource value: 0x7F0400CD
+			public const int scrollBar_new_00204 = 2130968781;
 			
-			// aapt resource value: 0x7f0200ce
-			public const int scrollBar_new_00205 = 2130837710;
+			// aapt resource value: 0x7F0400CE
+			public const int scrollBar_new_00205 = 2130968782;
 			
-			// aapt resource value: 0x7f0200cf
-			public const int scrollBar_new_00206 = 2130837711;
+			// aapt resource value: 0x7F0400CF
+			public const int scrollBar_new_00206 = 2130968783;
 			
-			// aapt resource value: 0x7f0200d0
-			public const int scrollBar_new_00207 = 2130837712;
+			// aapt resource value: 0x7F0400D0
+			public const int scrollBar_new_00207 = 2130968784;
 			
-			// aapt resource value: 0x7f0200d1
-			public const int scrollBar_new_00208 = 2130837713;
+			// aapt resource value: 0x7F0400D1
+			public const int scrollBar_new_00208 = 2130968785;
 			
-			// aapt resource value: 0x7f0200d2
-			public const int scrollBar_new_00209 = 2130837714;
+			// aapt resource value: 0x7F0400D2
+			public const int scrollBar_new_00209 = 2130968786;
 			
-			// aapt resource value: 0x7f0200d3
-			public const int scrollBar_new_00210 = 2130837715;
+			// aapt resource value: 0x7F0400D3
+			public const int scrollBar_new_00210 = 2130968787;
 			
-			// aapt resource value: 0x7f0200d4
-			public const int scrollBar_new_00211 = 2130837716;
+			// aapt resource value: 0x7F0400D4
+			public const int scrollBar_new_00211 = 2130968788;
 			
-			// aapt resource value: 0x7f0200d5
-			public const int scrollBar_new_00212 = 2130837717;
+			// aapt resource value: 0x7F0400D5
+			public const int scrollBar_new_00212 = 2130968789;
 			
-			// aapt resource value: 0x7f0200d6
-			public const int scrollBar_new_00213 = 2130837718;
+			// aapt resource value: 0x7F0400D6
+			public const int scrollBar_new_00213 = 2130968790;
 			
-			// aapt resource value: 0x7f0200d7
-			public const int scrollBar_new_00214 = 2130837719;
+			// aapt resource value: 0x7F0400D7
+			public const int scrollBar_new_00214 = 2130968791;
 			
-			// aapt resource value: 0x7f0200d8
-			public const int scrollBar_new_00215 = 2130837720;
+			// aapt resource value: 0x7F0400D8
+			public const int scrollBar_new_00215 = 2130968792;
 			
-			// aapt resource value: 0x7f0200d9
-			public const int scrollBar_new_00216 = 2130837721;
+			// aapt resource value: 0x7F0400D9
+			public const int scrollBar_new_00216 = 2130968793;
 			
-			// aapt resource value: 0x7f0200da
-			public const int scrollBar_new_00217 = 2130837722;
+			// aapt resource value: 0x7F0400DA
+			public const int scrollBar_new_00217 = 2130968794;
 			
-			// aapt resource value: 0x7f0200db
-			public const int scrollBar_new_00218 = 2130837723;
+			// aapt resource value: 0x7F0400DB
+			public const int scrollBar_new_00218 = 2130968795;
 			
-			// aapt resource value: 0x7f0200dc
-			public const int scrollBar_new_00219 = 2130837724;
+			// aapt resource value: 0x7F0400DC
+			public const int scrollBar_new_00219 = 2130968796;
 			
-			// aapt resource value: 0x7f0200dd
-			public const int scrollBar_new_00220 = 2130837725;
+			// aapt resource value: 0x7F0400DD
+			public const int scrollBar_new_00220 = 2130968797;
 			
-			// aapt resource value: 0x7f0200de
-			public const int scrollBar_new_00221 = 2130837726;
+			// aapt resource value: 0x7F0400DE
+			public const int scrollBar_new_00221 = 2130968798;
 			
-			// aapt resource value: 0x7f0200df
-			public const int scrollBar_new_00222 = 2130837727;
+			// aapt resource value: 0x7F0400DF
+			public const int scrollBar_new_00222 = 2130968799;
 			
-			// aapt resource value: 0x7f0200e0
-			public const int scrollBar_new_00223 = 2130837728;
+			// aapt resource value: 0x7F0400E0
+			public const int scrollBar_new_00223 = 2130968800;
 			
-			// aapt resource value: 0x7f0200e1
-			public const int scrollBar_new_00224 = 2130837729;
+			// aapt resource value: 0x7F0400E1
+			public const int scrollBar_new_00224 = 2130968801;
 			
-			// aapt resource value: 0x7f0200e2
-			public const int scrollBar_new_00225 = 2130837730;
+			// aapt resource value: 0x7F0400E2
+			public const int scrollBar_new_00225 = 2130968802;
 			
-			// aapt resource value: 0x7f0200e3
-			public const int scrollBar_new_00226 = 2130837731;
+			// aapt resource value: 0x7F0400E3
+			public const int scrollBar_new_00226 = 2130968803;
 			
-			// aapt resource value: 0x7f0200e4
-			public const int scrollBar_new_00227 = 2130837732;
+			// aapt resource value: 0x7F0400E4
+			public const int scrollBar_new_00227 = 2130968804;
 			
-			// aapt resource value: 0x7f0200e5
-			public const int scrollBar_new_00228 = 2130837733;
+			// aapt resource value: 0x7F0400E5
+			public const int scrollBar_new_00228 = 2130968805;
 			
-			// aapt resource value: 0x7f0200e6
-			public const int scrollBar_new_00229 = 2130837734;
+			// aapt resource value: 0x7F0400E6
+			public const int scrollBar_new_00229 = 2130968806;
 			
-			// aapt resource value: 0x7f0200e7
-			public const int scrollBar_new_00230 = 2130837735;
+			// aapt resource value: 0x7F0400E7
+			public const int scrollBar_new_00230 = 2130968807;
 			
-			// aapt resource value: 0x7f0200e8
-			public const int scrollBar_new_00231 = 2130837736;
+			// aapt resource value: 0x7F0400E8
+			public const int scrollBar_new_00231 = 2130968808;
 			
-			// aapt resource value: 0x7f0200e9
-			public const int scrollBar_new_00232 = 2130837737;
+			// aapt resource value: 0x7F0400E9
+			public const int scrollBar_new_00232 = 2130968809;
 			
-			// aapt resource value: 0x7f0200ea
-			public const int scrollBar_new_00233 = 2130837738;
+			// aapt resource value: 0x7F0400EA
+			public const int scrollBar_new_00233 = 2130968810;
 			
-			// aapt resource value: 0x7f0200eb
-			public const int scrollBar_new_00234 = 2130837739;
+			// aapt resource value: 0x7F0400EB
+			public const int scrollBar_new_00234 = 2130968811;
 			
-			// aapt resource value: 0x7f0200ec
-			public const int scrollBar_new_00235 = 2130837740;
+			// aapt resource value: 0x7F0400EC
+			public const int scrollBar_new_00235 = 2130968812;
 			
-			// aapt resource value: 0x7f0200ed
-			public const int scrollBar_new_00236 = 2130837741;
+			// aapt resource value: 0x7F0400ED
+			public const int scrollBar_new_00236 = 2130968813;
 			
-			// aapt resource value: 0x7f0200ee
-			public const int scrollBar_new_00237 = 2130837742;
+			// aapt resource value: 0x7F0400EE
+			public const int scrollBar_new_00237 = 2130968814;
 			
-			// aapt resource value: 0x7f0200ef
-			public const int scrollBar_new_00238 = 2130837743;
+			// aapt resource value: 0x7F0400EF
+			public const int scrollBar_new_00238 = 2130968815;
 			
-			// aapt resource value: 0x7f0200f0
-			public const int scrollBar_new_00239 = 2130837744;
+			// aapt resource value: 0x7F0400F0
+			public const int scrollBar_new_00239 = 2130968816;
 			
-			// aapt resource value: 0x7f0200f1
-			public const int scrollBar_new_00240 = 2130837745;
+			// aapt resource value: 0x7F0400F1
+			public const int scrollBar_new_00240 = 2130968817;
 			
-			// aapt resource value: 0x7f0200f2
-			public const int scrollBar_new_00241 = 2130837746;
+			// aapt resource value: 0x7F0400F2
+			public const int scrollBar_new_00241 = 2130968818;
 			
-			// aapt resource value: 0x7f0200f3
-			public const int scrollBar_new_00242 = 2130837747;
+			// aapt resource value: 0x7F0400F3
+			public const int scrollBar_new_00242 = 2130968819;
 			
-			// aapt resource value: 0x7f0200f4
-			public const int scrollBar_new_00243 = 2130837748;
+			// aapt resource value: 0x7F0400F4
+			public const int scrollBar_new_00243 = 2130968820;
 			
-			// aapt resource value: 0x7f0200f5
-			public const int scrollBar_new_00244 = 2130837749;
+			// aapt resource value: 0x7F0400F5
+			public const int scrollBar_new_00244 = 2130968821;
 			
-			// aapt resource value: 0x7f0200f6
-			public const int scrollBar_new_00245 = 2130837750;
+			// aapt resource value: 0x7F0400F6
+			public const int scrollBar_new_00245 = 2130968822;
 			
-			// aapt resource value: 0x7f0200f7
-			public const int scrollBar_new_00246 = 2130837751;
+			// aapt resource value: 0x7F0400F7
+			public const int scrollBar_new_00246 = 2130968823;
 			
-			// aapt resource value: 0x7f0200f8
-			public const int scrollBar_new_00247 = 2130837752;
+			// aapt resource value: 0x7F0400F8
+			public const int scrollBar_new_00247 = 2130968824;
 			
-			// aapt resource value: 0x7f0200f9
-			public const int scrollBar_new_00248 = 2130837753;
+			// aapt resource value: 0x7F0400F9
+			public const int scrollBar_new_00248 = 2130968825;
 			
-			// aapt resource value: 0x7f0200fa
-			public const int scrollBar_new_00249 = 2130837754;
+			// aapt resource value: 0x7F0400FA
+			public const int scrollBar_new_00249 = 2130968826;
 			
-			// aapt resource value: 0x7f0200fb
-			public const int scrollBar_new_00250 = 2130837755;
+			// aapt resource value: 0x7F0400FB
+			public const int scrollBar_new_00250 = 2130968827;
 			
-			// aapt resource value: 0x7f0200fc
-			public const int scrollBar_new_00251 = 2130837756;
+			// aapt resource value: 0x7F0400FC
+			public const int scrollBar_new_00251 = 2130968828;
 			
-			// aapt resource value: 0x7f0200fd
-			public const int scrollBar_new_00252 = 2130837757;
+			// aapt resource value: 0x7F0400FD
+			public const int scrollBar_new_00252 = 2130968829;
 			
-			// aapt resource value: 0x7f0200fe
-			public const int scrollBar_new_00253 = 2130837758;
+			// aapt resource value: 0x7F0400FE
+			public const int scrollBar_new_00253 = 2130968830;
 			
-			// aapt resource value: 0x7f0200ff
-			public const int scrollBar_new_00254 = 2130837759;
+			// aapt resource value: 0x7F0400FF
+			public const int scrollBar_new_00254 = 2130968831;
 			
-			// aapt resource value: 0x7f020100
-			public const int scrollBar_new_00255 = 2130837760;
+			// aapt resource value: 0x7F040100
+			public const int scrollBar_new_00255 = 2130968832;
 			
-			// aapt resource value: 0x7f020101
-			public const int scrollBar_new_00256 = 2130837761;
+			// aapt resource value: 0x7F040101
+			public const int scrollBar_new_00256 = 2130968833;
 			
-			// aapt resource value: 0x7f020102
-			public const int scrollBar_new_00257 = 2130837762;
+			// aapt resource value: 0x7F040102
+			public const int scrollBar_new_00257 = 2130968834;
 			
-			// aapt resource value: 0x7f020103
-			public const int scrollBar_new_00258 = 2130837763;
+			// aapt resource value: 0x7F040103
+			public const int scrollBar_new_00258 = 2130968835;
 			
-			// aapt resource value: 0x7f020104
-			public const int scrollBar_new_00259 = 2130837764;
+			// aapt resource value: 0x7F040104
+			public const int scrollBar_new_00259 = 2130968836;
 			
-			// aapt resource value: 0x7f020105
-			public const int scrollBar_new_00260 = 2130837765;
+			// aapt resource value: 0x7F040105
+			public const int scrollBar_new_00260 = 2130968837;
 			
-			// aapt resource value: 0x7f020106
-			public const int scrollBar_new_00261 = 2130837766;
+			// aapt resource value: 0x7F040106
+			public const int scrollBar_new_00261 = 2130968838;
 			
-			// aapt resource value: 0x7f020107
-			public const int scrollBar_new_00262 = 2130837767;
+			// aapt resource value: 0x7F040107
+			public const int scrollBar_new_00262 = 2130968839;
 			
-			// aapt resource value: 0x7f020108
-			public const int scrollBar_new_00263 = 2130837768;
+			// aapt resource value: 0x7F040108
+			public const int scrollBar_new_00263 = 2130968840;
 			
-			// aapt resource value: 0x7f020109
-			public const int scrollBar_new_00264 = 2130837769;
+			// aapt resource value: 0x7F040109
+			public const int scrollBar_new_00264 = 2130968841;
 			
-			// aapt resource value: 0x7f02010a
-			public const int scrollBar_new_00265 = 2130837770;
+			// aapt resource value: 0x7F04010A
+			public const int scrollBar_new_00265 = 2130968842;
 			
-			// aapt resource value: 0x7f02010b
-			public const int scrollBar_new_00266 = 2130837771;
+			// aapt resource value: 0x7F04010B
+			public const int scrollBar_new_00266 = 2130968843;
 			
-			// aapt resource value: 0x7f02010c
-			public const int scrollBar_new_00267 = 2130837772;
+			// aapt resource value: 0x7F04010C
+			public const int scrollBar_new_00267 = 2130968844;
 			
-			// aapt resource value: 0x7f02010d
-			public const int scrollBar_new_00268 = 2130837773;
+			// aapt resource value: 0x7F04010D
+			public const int scrollBar_new_00268 = 2130968845;
+			
+			// aapt resource value: 0x7F04010E
+			public const int scrollBar_new_00269 = 2130968846;
+			
+			// aapt resource value: 0x7F04010F
+			public const int scrollBar_new_00270 = 2130968847;
+			
+			// aapt resource value: 0x7F040110
+			public const int scrollBar_new_00271 = 2130968848;
+			
+			// aapt resource value: 0x7F040111
+			public const int scrollBar_new_00272 = 2130968849;
+			
+			// aapt resource value: 0x7F040112
+			public const int scrollBar_new_00273 = 2130968850;
+			
+			// aapt resource value: 0x7F040113
+			public const int scrollBar_new_00274 = 2130968851;
+			
+			// aapt resource value: 0x7F040114
+			public const int scrollBar_new_00275 = 2130968852;
+			
+			// aapt resource value: 0x7F040115
+			public const int scrollBar_new_00276 = 2130968853;
+			
+			// aapt resource value: 0x7F040116
+			public const int scrollBar_new_00277 = 2130968854;
+			
+			// aapt resource value: 0x7F040117
+			public const int scrollBar_new_00278 = 2130968855;
+			
+			// aapt resource value: 0x7F040118
+			public const int scrollBar_new_00279 = 2130968856;
+			
+			// aapt resource value: 0x7F040119
+			public const int scrollBar_new_00280 = 2130968857;
+			
+			// aapt resource value: 0x7F04011A
+			public const int scrollBar_new_00281 = 2130968858;
+			
+			// aapt resource value: 0x7F04011B
+			public const int scrollBar_new_00282 = 2130968859;
+			
+			// aapt resource value: 0x7F04011C
+			public const int scrollBar_new_00283 = 2130968860;
+			
+			// aapt resource value: 0x7F04011D
+			public const int scrollBar_new_00284 = 2130968861;
+			
+			// aapt resource value: 0x7F04011E
+			public const int scrollBar_new_00285 = 2130968862;
+			
+			// aapt resource value: 0x7F04011F
+			public const int scrollBar_new_00286 = 2130968863;
+			
+			// aapt resource value: 0x7F040120
+			public const int scrollBar_new_00287 = 2130968864;
+			
+			// aapt resource value: 0x7F040121
+			public const int scrollBar_new_00288 = 2130968865;
+			
+			// aapt resource value: 0x7F040122
+			public const int scrollBar_new_00289 = 2130968866;
+			
+			// aapt resource value: 0x7F040123
+			public const int scrollBar_new_00290 = 2130968867;
+			
+			// aapt resource value: 0x7F040124
+			public const int scrollBar_new_00291 = 2130968868;
+			
+			// aapt resource value: 0x7F040125
+			public const int scrollBar_new_00292 = 2130968869;
+			
+			// aapt resource value: 0x7F040126
+			public const int scrollBar_new_00293 = 2130968870;
+			
+			// aapt resource value: 0x7F040127
+			public const int scrollBar_new_00294 = 2130968871;
+			
+			// aapt resource value: 0x7F040128
+			public const int scrollBar_new_00295 = 2130968872;
+			
+			// aapt resource value: 0x7F040129
+			public const int scrollBar_new_00296 = 2130968873;
+			
+			// aapt resource value: 0x7F04012A
+			public const int scrollBar_new_00297 = 2130968874;
+			
+			// aapt resource value: 0x7F04012B
+			public const int scrollBar_new_00298 = 2130968875;
+			
+			// aapt resource value: 0x7F04012C
+			public const int scrollBar_new_00299 = 2130968876;
+			
+			// aapt resource value: 0x7F04012D
+			public const int scrollBar_new_00300 = 2130968877;
+			
+			// aapt resource value: 0x7F04012E
+			public const int scrollBar_new_00301 = 2130968878;
+			
+			// aapt resource value: 0x7F04012F
+			public const int scrollBar_new_00302 = 2130968879;
+			
+			// aapt resource value: 0x7F040130
+			public const int scrollBar_new_00303 = 2130968880;
+			
+			// aapt resource value: 0x7F040131
+			public const int scrollBar_new_00304 = 2130968881;
+			
+			// aapt resource value: 0x7F040132
+			public const int scrollBar_new_00305 = 2130968882;
+			
+			// aapt resource value: 0x7F040133
+			public const int scrollBar_new_00306 = 2130968883;
+			
+			// aapt resource value: 0x7F040134
+			public const int scrollBar_new_00307 = 2130968884;
+			
+			// aapt resource value: 0x7F040135
+			public const int scrollBar_new_00308 = 2130968885;
+			
+			// aapt resource value: 0x7F040136
+			public const int scrollBar_new_00309 = 2130968886;
+			
+			// aapt resource value: 0x7F040137
+			public const int scrollBar_new_00310 = 2130968887;
+			
+			// aapt resource value: 0x7F040138
+			public const int scrollBar_new_00311 = 2130968888;
+			
+			// aapt resource value: 0x7F040139
+			public const int scrollBar_new_00312 = 2130968889;
+			
+			// aapt resource value: 0x7F04013A
+			public const int scrollBar_new_00313 = 2130968890;
+			
+			// aapt resource value: 0x7F04013B
+			public const int scrollBar_new_00314 = 2130968891;
+			
+			// aapt resource value: 0x7F04013C
+			public const int scrollBar_new_00315 = 2130968892;
+			
+			// aapt resource value: 0x7F04013D
+			public const int scrollBar_new_00316 = 2130968893;
+			
+			// aapt resource value: 0x7F04013E
+			public const int scrollBar_new_00317 = 2130968894;
+			
+			// aapt resource value: 0x7F04013F
+			public const int scrollBar_new_00318 = 2130968895;
+			
+			// aapt resource value: 0x7F040140
+			public const int scrollBar_new_00319 = 2130968896;
+			
+			// aapt resource value: 0x7F040141
+			public const int scrollBar_new_00320 = 2130968897;
+			
+			// aapt resource value: 0x7F040142
+			public const int scrollBar_new_00321 = 2130968898;
+			
+			// aapt resource value: 0x7F040143
+			public const int scrollBar_new_00322 = 2130968899;
+			
+			// aapt resource value: 0x7F040144
+			public const int scrollBar_new_00323 = 2130968900;
+			
+			// aapt resource value: 0x7F040145
+			public const int scrollBar_new_00324 = 2130968901;
+			
+			// aapt resource value: 0x7F040146
+			public const int scrollBar_new_00325 = 2130968902;
+			
+			// aapt resource value: 0x7F040147
+			public const int scrollBar_new_00326 = 2130968903;
+			
+			// aapt resource value: 0x7F040148
+			public const int scrollBar_new_00327 = 2130968904;
+			
+			// aapt resource value: 0x7F040149
+			public const int scrollBar_new_00328 = 2130968905;
+			
+			// aapt resource value: 0x7F04014A
+			public const int scrollBar_new_00329 = 2130968906;
+			
+			// aapt resource value: 0x7F04014B
+			public const int scrollBar_new_00330 = 2130968907;
+			
+			// aapt resource value: 0x7F04014C
+			public const int scrollBar_new_00331 = 2130968908;
+			
+			// aapt resource value: 0x7F04014D
+			public const int scrollBar_new_00332 = 2130968909;
+			
+			// aapt resource value: 0x7F04014E
+			public const int scrollBar_new_00333 = 2130968910;
+			
+			// aapt resource value: 0x7F04014F
+			public const int scrollBar_new_00334 = 2130968911;
+			
+			// aapt resource value: 0x7F040150
+			public const int scrollBar_new_00335 = 2130968912;
+			
+			// aapt resource value: 0x7F040151
+			public const int scrollBar_new_00336 = 2130968913;
+			
+			// aapt resource value: 0x7F040152
+			public const int scrollBar_new_00337 = 2130968914;
+			
+			// aapt resource value: 0x7F040153
+			public const int scrollBar_new_00338 = 2130968915;
+			
+			// aapt resource value: 0x7F040154
+			public const int scrollBar_new_00339 = 2130968916;
+			
+			// aapt resource value: 0x7F040155
+			public const int scrollBar_new_00340 = 2130968917;
+			
+			// aapt resource value: 0x7F040156
+			public const int scrollBar_new_00341 = 2130968918;
+			
+			// aapt resource value: 0x7F040157
+			public const int scrollBar_new_00342 = 2130968919;
+			
+			// aapt resource value: 0x7F040158
+			public const int scrollBar_new_00343 = 2130968920;
+			
+			// aapt resource value: 0x7F040159
+			public const int scrollBar_new_00344 = 2130968921;
+			
+			// aapt resource value: 0x7F04015A
+			public const int scrollBar_new_00345 = 2130968922;
+			
+			// aapt resource value: 0x7F04015B
+			public const int scrollBar_new_00346 = 2130968923;
+			
+			// aapt resource value: 0x7F04015C
+			public const int scrollBar_new_00347 = 2130968924;
+			
+			// aapt resource value: 0x7F04015D
+			public const int scrollBar_new_00348 = 2130968925;
+			
+			// aapt resource value: 0x7F04015E
+			public const int scrollBar_new_00349 = 2130968926;
+			
+			// aapt resource value: 0x7F04015F
+			public const int scrollBar_new_00350 = 2130968927;
+			
+			// aapt resource value: 0x7F040160
+			public const int scrollBar_new_00351 = 2130968928;
+			
+			// aapt resource value: 0x7F040161
+			public const int scrollBar_new_00352 = 2130968929;
+			
+			// aapt resource value: 0x7F040162
+			public const int scrollBar_new_00353 = 2130968930;
+			
+			// aapt resource value: 0x7F040163
+			public const int scrollBar_new_00354 = 2130968931;
+			
+			// aapt resource value: 0x7F040164
+			public const int scrollBar_new_00355 = 2130968932;
+			
+			// aapt resource value: 0x7F040165
+			public const int scrollBar_new_00356 = 2130968933;
+			
+			// aapt resource value: 0x7F040166
+			public const int scrollBar_new_00357 = 2130968934;
+			
+			// aapt resource value: 0x7F040167
+			public const int scrollBar_new_00358 = 2130968935;
+			
+			// aapt resource value: 0x7F040168
+			public const int scrollBar_new_00359 = 2130968936;
+			
+			// aapt resource value: 0x7F040169
+			public const int scrollBar_new_00360 = 2130968937;
+			
+			// aapt resource value: 0x7F04016A
+			public const int scrollBar_new_00361 = 2130968938;
+			
+			// aapt resource value: 0x7F04016B
+			public const int scrollBar_new_00362 = 2130968939;
+			
+			// aapt resource value: 0x7F04016C
+			public const int scrollBar_new_00363 = 2130968940;
+			
+			// aapt resource value: 0x7F04016D
+			public const int scrollBar_new_00364 = 2130968941;
+			
+			// aapt resource value: 0x7F04016E
+			public const int scrollBar_new_00365 = 2130968942;
+			
+			// aapt resource value: 0x7F04016F
+			public const int scrollBar_new_00366 = 2130968943;
+			
+			// aapt resource value: 0x7F040170
+			public const int scrollBar_new_00367 = 2130968944;
+			
+			// aapt resource value: 0x7F040171
+			public const int scrollBar_new_00368 = 2130968945;
+			
+			// aapt resource value: 0x7F040172
+			public const int scrollBar_new_00369 = 2130968946;
+			
+			// aapt resource value: 0x7F040173
+			public const int scrollBar_new_00370 = 2130968947;
+			
+			// aapt resource value: 0x7F040174
+			public const int scrollBar_new_00371 = 2130968948;
+			
+			// aapt resource value: 0x7F040175
+			public const int scrollBar_new_00372 = 2130968949;
+			
+			// aapt resource value: 0x7F040176
+			public const int scrollBar_new_00373 = 2130968950;
+			
+			// aapt resource value: 0x7F040177
+			public const int scrollBar_new_00374 = 2130968951;
+			
+			// aapt resource value: 0x7F040178
+			public const int scrollBar_new_00375 = 2130968952;
+			
+			// aapt resource value: 0x7F040179
+			public const int scrollBar_new_00376 = 2130968953;
+			
+			// aapt resource value: 0x7F04017A
+			public const int scrollBar_new_00377 = 2130968954;
+			
+			// aapt resource value: 0x7F04017B
+			public const int scrollBar_new_00378 = 2130968955;
+			
+			// aapt resource value: 0x7F04017C
+			public const int scrollBar_new_00379 = 2130968956;
+			
+			// aapt resource value: 0x7F04017D
+			public const int scrollBar_new_00380 = 2130968957;
+			
+			// aapt resource value: 0x7F04017E
+			public const int scrollBar_new_00381 = 2130968958;
+			
+			// aapt resource value: 0x7F04017F
+			public const int scrollBar_new_00382 = 2130968959;
+			
+			// aapt resource value: 0x7F040180
+			public const int scrollBar_new_00383 = 2130968960;
+			
+			// aapt resource value: 0x7F040181
+			public const int scrollBar_new_00384 = 2130968961;
+			
+			// aapt resource value: 0x7F040182
+			public const int scrollBar_new_00385 = 2130968962;
+			
+			// aapt resource value: 0x7F040183
+			public const int scrollBar_new_00386 = 2130968963;
+			
+			// aapt resource value: 0x7F040184
+			public const int scrollBar_new_00387 = 2130968964;
+			
+			// aapt resource value: 0x7F040185
+			public const int scrollBar_new_00388 = 2130968965;
+			
+			// aapt resource value: 0x7F040186
+			public const int scrollBar_new_00389 = 2130968966;
+			
+			// aapt resource value: 0x7F040187
+			public const int scrollBar_new_00390 = 2130968967;
+			
+			// aapt resource value: 0x7F040188
+			public const int scrollBar_new_00391 = 2130968968;
+			
+			// aapt resource value: 0x7F040189
+			public const int scrollBar_new_00392 = 2130968969;
+			
+			// aapt resource value: 0x7F04018A
+			public const int scrollBar_new_00393 = 2130968970;
+			
+			// aapt resource value: 0x7F04018B
+			public const int scrollBar_new_00394 = 2130968971;
+			
+			// aapt resource value: 0x7F04018C
+			public const int scrollBar_new_00395 = 2130968972;
+			
+			// aapt resource value: 0x7F04018D
+			public const int scrollBar_new_00396 = 2130968973;
+			
+			// aapt resource value: 0x7F04018E
+			public const int scrollBar_new_00397 = 2130968974;
+			
+			// aapt resource value: 0x7F04018F
+			public const int scrollBar_new_00398 = 2130968975;
+			
+			// aapt resource value: 0x7F040190
+			public const int scrollBar_new_00399 = 2130968976;
+			
+			// aapt resource value: 0x7F040191
+			public const int scrollBar_new_00400 = 2130968977;
+			
+			// aapt resource value: 0x7F040192
+			public const int scrollBar_new_00401 = 2130968978;
+			
+			// aapt resource value: 0x7F040193
+			public const int scrollBar_new_00402 = 2130968979;
+			
+			// aapt resource value: 0x7F040194
+			public const int scrollBar_new_00403 = 2130968980;
+			
+			// aapt resource value: 0x7F040195
+			public const int scrollBar_new_00404 = 2130968981;
+			
+			// aapt resource value: 0x7F040196
+			public const int scrollBar_new_00405 = 2130968982;
+			
+			// aapt resource value: 0x7F040197
+			public const int scrollBar_new_00406 = 2130968983;
+			
+			// aapt resource value: 0x7F040198
+			public const int scrollBar_new_00407 = 2130968984;
+			
+			// aapt resource value: 0x7F040199
+			public const int scrollBar_new_00408 = 2130968985;
+			
+			// aapt resource value: 0x7F04019A
+			public const int scrollBar_new_00409 = 2130968986;
+			
+			// aapt resource value: 0x7F04019B
+			public const int scrollBar_new_00410 = 2130968987;
+			
+			// aapt resource value: 0x7F04019C
+			public const int scrollBar_new_00411 = 2130968988;
+			
+			// aapt resource value: 0x7F04019D
+			public const int scrollBar_new_00412 = 2130968989;
+			
+			// aapt resource value: 0x7F04019E
+			public const int scrollBar_new_00413 = 2130968990;
+			
+			// aapt resource value: 0x7F04019F
+			public const int scrollBar_new_00414 = 2130968991;
+			
+			// aapt resource value: 0x7F0401A0
+			public const int scrollBar_new_00415 = 2130968992;
+			
+			// aapt resource value: 0x7F0401A1
+			public const int scrollBar_new_00416 = 2130968993;
+			
+			// aapt resource value: 0x7F0401A2
+			public const int scrollBar_new_00417 = 2130968994;
+			
+			// aapt resource value: 0x7F0401A3
+			public const int scrollBar_new_00418 = 2130968995;
+			
+			// aapt resource value: 0x7F0401A4
+			public const int scrollBar_new_00419 = 2130968996;
+			
+			// aapt resource value: 0x7F0401A5
+			public const int scrollBar_new_00420 = 2130968997;
+			
+			// aapt resource value: 0x7F0401A6
+			public const int scrollBar_new_00421 = 2130968998;
+			
+			// aapt resource value: 0x7F0401A7
+			public const int scrollBar_new_00422 = 2130968999;
+			
+			// aapt resource value: 0x7F0401A8
+			public const int scrollBar_new_00423 = 2130969000;
+			
+			// aapt resource value: 0x7F0401A9
+			public const int scrollBar_new_00424 = 2130969001;
+			
+			// aapt resource value: 0x7F0401AA
+			public const int scrollBar_new_00425 = 2130969002;
+			
+			// aapt resource value: 0x7F0401AB
+			public const int scrollBar_new_00426 = 2130969003;
 			
 			static Drawable()
 			{
@@ -968,13 +1442,13 @@ namespace TestRecyclerView
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int imageView = 2131034113;
+			// aapt resource value: 0x7F050000
+			public const int imageView = 2131034112;
 			
-			// aapt resource value: 0x7f050000
-			public const int item_touch_helper_previous_elevation = 2131034112;
+			// aapt resource value: 0x7F050001
+			public const int item_touch_helper_previous_elevation = 2131034113;
 			
-			// aapt resource value: 0x7f050002
+			// aapt resource value: 0x7F050002
 			public const int recyclerView = 2131034114;
 			
 			static Id()
@@ -990,11 +1464,11 @@ namespace TestRecyclerView
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int ImageCardView = 2130903040;
+			// aapt resource value: 0x7F060000
+			public const int ImageCardView = 2131099648;
 			
-			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			// aapt resource value: 0x7F060001
+			public const int Main = 2131099649;
 			
 			static Layout()
 			{
@@ -1009,11 +1483,11 @@ namespace TestRecyclerView
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f080001
-			public const int ApplicationName = 2131230721;
+			// aapt resource value: 0x7F070000
+			public const int ApplicationName = 2131165184;
 			
-			// aapt resource value: 0x7f080000
-			public const int Hello = 2131230720;
+			// aapt resource value: 0x7F070001
+			public const int Hello = 2131165185;
 			
 			static String()
 			{
@@ -1028,17 +1502,17 @@ namespace TestRecyclerView
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int Base_CardView = 2131099649;
+			// aapt resource value: 0x7F080000
+			public const int Base_CardView = 2131230720;
 			
-			// aapt resource value: 0x7f060000
-			public const int CardView = 2131099648;
+			// aapt resource value: 0x7F080001
+			public const int CardView = 2131230721;
 			
-			// aapt resource value: 0x7f060002
-			public const int CardView_Dark = 2131099650;
+			// aapt resource value: 0x7F080002
+			public const int CardView_Dark = 2131230722;
 			
-			// aapt resource value: 0x7f060003
-			public const int CardView_Light = 2131099651;
+			// aapt resource value: 0x7F080003
+			public const int CardView_Light = 2131230723;
 			
 			static Style()
 			{
@@ -1053,20 +1527,21 @@ namespace TestRecyclerView
 		public partial class Styleable
 		{
 			
+			// aapt resource value: { 0x101013F,0x1010140,0x7F010000,0x7F010001,0x7F010002,0x7F010003,0x7F010004,0x7F010005,0x7F010006,0x7F010007,0x7F010008,0x7F010009,0x7F01000A }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
 					2130771972,
 					2130771973,
 					2130771974,
 					2130771975,
 					2130771976,
 					2130771977,
-					2130771978,
-					2130771979,
-					2130771980,
-					2130771981,
-					2130771982};
+					2130771978};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -1086,33 +1561,34 @@ namespace TestRecyclerView
 			// aapt resource value: 5
 			public const int CardView_cardMaxElevation = 5;
 			
-			// aapt resource value: 7
-			public const int CardView_cardPreventCornerOverlap = 7;
-			
 			// aapt resource value: 6
-			public const int CardView_cardUseCompatPadding = 6;
+			public const int CardView_cardPreventCornerOverlap = 6;
+			
+			// aapt resource value: 7
+			public const int CardView_cardUseCompatPadding = 7;
 			
 			// aapt resource value: 8
 			public const int CardView_contentPadding = 8;
 			
-			// aapt resource value: 12
-			public const int CardView_contentPaddingBottom = 12;
-			
 			// aapt resource value: 9
-			public const int CardView_contentPaddingLeft = 9;
+			public const int CardView_contentPaddingBottom = 9;
 			
 			// aapt resource value: 10
-			public const int CardView_contentPaddingRight = 10;
+			public const int CardView_contentPaddingLeft = 10;
 			
 			// aapt resource value: 11
-			public const int CardView_contentPaddingTop = 11;
+			public const int CardView_contentPaddingRight = 11;
 			
+			// aapt resource value: 12
+			public const int CardView_contentPaddingTop = 12;
+			
+			// aapt resource value: { 0x10100C4,0x7F01000B,0x7F01000C,0x7F01000D,0x7F01000E }
 			public static int[] RecyclerView = new int[] {
 					16842948,
-					2130771968,
-					2130771969,
-					2130771970,
-					2130771971};
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982};
 			
 			// aapt resource value: 0
 			public const int RecyclerView_android_orientation = 0;
@@ -1120,11 +1596,11 @@ namespace TestRecyclerView
 			// aapt resource value: 1
 			public const int RecyclerView_layoutManager = 1;
 			
-			// aapt resource value: 3
-			public const int RecyclerView_reverseLayout = 3;
-			
 			// aapt resource value: 2
-			public const int RecyclerView_spanCount = 2;
+			public const int RecyclerView_reverseLayout = 2;
+			
+			// aapt resource value: 3
+			public const int RecyclerView_spanCount = 3;
 			
 			// aapt resource value: 4
 			public const int RecyclerView_stackFromEnd = 4;

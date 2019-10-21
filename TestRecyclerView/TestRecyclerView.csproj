@@ -72,7 +72,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EndlessScrollListener.cs" />
+    <Compile Include="Examples\EndlessScrollListener.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MyImage.cs" />
     <Compile Include="MyImageAlbum.cs" />
@@ -918,397 +918,478 @@
     <AndroidResource Include="Resources\drawable\scrollBar_new_00268.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00001.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00269.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00002.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00270.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00003.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00271.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00004.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00272.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00005.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00273.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00006.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00274.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00007.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00275.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00008.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00276.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00009.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00277.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00010.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00278.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00011.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00279.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00012.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00280.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00013.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00281.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00014.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00282.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00015.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00283.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00016.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00284.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00017.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00285.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00018.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00286.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00019.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00287.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00020.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00288.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00021.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00289.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00022.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00290.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00023.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00291.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00024.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00292.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00025.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00293.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00026.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00294.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00027.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00295.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00028.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00296.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00029.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00297.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00030.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00298.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00031.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00299.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00032.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00300.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00033.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00301.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00034.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00302.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00035.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00303.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00036.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00304.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00037.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00305.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00038.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00306.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00039.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00307.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00040.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00308.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00041.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00309.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00042.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00310.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00043.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00311.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00044.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00312.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00045.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00313.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00046.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00314.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00047.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00315.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00048.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00316.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00049.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00317.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00050.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00318.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00051.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00319.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00052.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00320.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00053.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00321.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00054.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00322.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00055.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00323.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00056.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00324.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00057.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00325.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00058.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00326.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00059.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00327.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00060.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00328.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00061.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00329.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00062.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00330.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00063.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00331.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00064.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00332.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00065.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00333.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00066.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00334.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00067.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00335.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00068.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00336.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00069.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00337.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00070.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00338.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00071.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00339.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00072.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00340.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00073.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00341.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00074.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00342.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00075.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00343.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00076.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00344.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00077.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00345.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00078.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00346.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00079.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00347.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00080.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00348.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00081.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00349.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00082.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00350.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00083.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00351.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00084.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00352.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00085.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00353.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00086.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00354.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00087.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00355.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00088.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00356.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00089.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00357.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00090.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00358.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00091.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00359.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00092.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00360.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00093.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00361.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00094.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00362.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00095.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00363.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00096.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00364.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00097.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00365.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00098.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00366.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00099.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00367.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00100.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00368.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00101.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00369.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00102.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00370.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00103.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00371.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00104.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00372.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00105.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00373.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00106.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00374.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00107.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00375.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00108.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00376.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00109.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00377.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00110.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00378.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00111.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00379.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00112.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00380.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00113.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00381.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00114.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00382.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00115.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00383.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00116.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00384.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00117.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00385.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00118.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00386.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00119.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00387.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00120.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00388.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00121.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00389.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00122.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00390.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00123.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00391.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00124.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00392.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00125.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00393.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00126.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00394.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00127.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00395.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00128.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00396.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00129.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00397.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00130.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00398.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\old\scrollBar_new_00131.png" />
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00399.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00402.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00403.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00404.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00405.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00406.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00407.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00408.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00409.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00410.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00412.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00413.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00414.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00415.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00416.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00417.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00418.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00419.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00420.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00421.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00422.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00423.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00424.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00425.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\scrollBar_new_00426.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

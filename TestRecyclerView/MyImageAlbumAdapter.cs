@@ -13,7 +13,7 @@ namespace TestRecyclerView
         //public event EventHandler<int> ItemClick;
 
         // Underlying data set (a MyImage album):
-        private MyImageAlbum mMyImageAlbum;
+        private readonly MyImageAlbum mMyImageAlbum;
 
         // Load the adapter with the data set (photo album) at construction time:
         public MyImageAlbumAdapter(MyImageAlbum anImageAlbum)

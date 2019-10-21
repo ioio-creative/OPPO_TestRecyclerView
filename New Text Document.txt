@@ -1,0 +1,4 @@
+Tile Cropping, sub-dividing one image into multiple images
+http://www.imagemagick.org/Usage/crop/#crop_tile
+
+magick convert phoneimage.jpg -crop 1080x50 +repage +adjoin phoneimage_1080x50_%05d.jpg

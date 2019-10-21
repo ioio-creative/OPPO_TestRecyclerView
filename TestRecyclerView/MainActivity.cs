@@ -1,17 +1,19 @@
 ﻿using Android.App;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.V7.Widget;
 using Android.Views;
-using Android.Widget;
-using System;
-using System.Timers;
 
 namespace TestRecyclerView
 {
     [Activity(Label = "TestRecyclerView", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
+#if DEBUG
+        private const bool isDebugLog = false;
+#else
+        private const bool isDebugLog = false;
+#endif
+
         // RecyclerView instance that displays the photo album:
         private RecyclerView mRecyclerView;
 
@@ -42,10 +44,6 @@ namespace TestRecyclerView
 
             // Instantiate the MyImage album:
             mMyImageAlbum = new MyImageAlbum();
-            while (mMyImageAlbum.NumImages < 500 * 25)
-            {
-                mMyImageAlbum.AddData();
-            }
 
             // Get our RecyclerView layout:
             mRecyclerView = FindViewById<RecyclerView>(Resource.Id.recyclerView);
@@ -76,15 +74,19 @@ namespace TestRecyclerView
             // Plug the adapter into the RecyclerView:
             mRecyclerView.SetAdapter(mAdapter);
 
-            mScrollListener = new MyImageAlbumOnScrollListener((LinearLayoutManager)mLayoutManager);
+            mScrollListener = new MyImageAlbumOnScrollListener(mLayoutManager as LinearLayoutManager);
             mRecyclerView.AddOnScrollListener(mScrollListener);
 
+            // needed for recording numItemsPerScreenView during first scroll
             mRecyclerView.SmoothScrollToPosition(mMyImageAlbum.NumImages / 2);
         }
       
         public static void Log(object obj)
         {
-            System.Diagnostics.Debug.WriteLine(obj);
+            if (isDebugLog)
+            {
+                System.Diagnostics.Debug.WriteLine(obj);
+            }
         }
     }    
 }
