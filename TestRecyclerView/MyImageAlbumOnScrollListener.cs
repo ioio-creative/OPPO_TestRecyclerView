@@ -43,7 +43,7 @@ namespace TestRecyclerView
 
         #region sendTimer
 
-        private const int sendTimerIntervalInMillis = 32;  // depends on tcp client's framerate
+        private const int sendTimerIntervalInMillis = 50;  // depends on tcp client's framerate
         private Timer sendTimer;
         private bool isInSendWindow = false;
 
