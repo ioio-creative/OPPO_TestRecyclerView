@@ -14,7 +14,7 @@ namespace TestRecyclerView
         private const int minSpeedLevel = 0;        
 
         private Server tcpServer;
-        private readonly Stopwatch stopWatch;
+        private Stopwatch stopWatch;
         private int currentLastVisibleItemPosition = -1;
         private float currentScrollSpeed = minSpeedLevel - 1;
 
@@ -38,7 +38,9 @@ namespace TestRecyclerView
 
         // TODO:
         private int onScrolledCounter = 0;
-        private const int numberOfTimesToSkipForCheckingTopReachedCondition = 30;
+        private int onScrolledCounterValueWhenTopReached = -1;
+        private const int numberOfTimesToSkipBeforeCheckingTopReachedCondition = 30;
+        private const int numberOfTimesToSkipSendingAfterTopReached = 10;
 
 
         #region sendTimer
@@ -58,8 +60,7 @@ namespace TestRecyclerView
             mLayoutManager = layoutManager;
 
             stopWatch = new Stopwatch();
-            SetSendTimer();
-            StartTcpServer();      
+            tcpServer = new Server();
         }
 
         // This happens many times a second during a scroll, so be wary of the code you place here.
@@ -84,14 +85,15 @@ namespace TestRecyclerView
                 MainActivity.Log($"numItemsPerScreenView: {numItemsPerScreenView}");
             }
 
-            MainActivity.Log(onScrolledCounter);
+            MainActivity.Log($"onScrolledCounter: {onScrolledCounter}");            
 
             // check if top is reached, "top-less" effect
             if (!isFirstScroll &&
-                onScrolledCounter > numberOfTimesToSkipForCheckingTopReachedCondition &&
+                onScrolledCounter > numberOfTimesToSkipBeforeCheckingTopReachedCondition &&
                 GetFirstVisibleItemPosition() < numItemsPerScreenView + visibleThreshold)
             {
                 MainActivity.Log("Top");
+                onScrolledCounterValueWhenTopReached = onScrolledCounter;
                 int totalScreenViewCount = numItemsPerScreenView != 0 ? totalItemCount / numItemsPerScreenView : 0;
                 MainActivity.Log($"totalScreenViewCount: {totalScreenViewCount}");
                 view.Post(new Runnable(() =>
@@ -276,8 +278,7 @@ namespace TestRecyclerView
         #region sendServer
 
         private void StartTcpServer()
-        {
-            tcpServer = new Server();
+        {            
             tcpServer.StartServer();
         }
 
@@ -288,14 +289,18 @@ namespace TestRecyclerView
 
         private void Send(string msg, bool isForceSend)
         {
-            if (isForceSend || isInSendWindow)
+            if (
+                isForceSend || 
+                (isInSendWindow && (onScrolledCounter > onScrolledCounterValueWhenTopReached + numberOfTimesToSkipSendingAfterTopReached))
+               )
             {
                 isInSendWindow = false;
                 tcpServer.Send(msg);
+                MainActivity.Log("Sent");
             }
         }
 
-        public void StopTcpServer()
+        private void StopTcpServer()
         {
             tcpServer.StopServer();
         }
@@ -326,11 +331,29 @@ namespace TestRecyclerView
         #endregion
 
 
-        // clear resources on activity stop
+        #region activity lifecycle
+
+        // initialise resources
+        public void OnActivityStart()
+        {
+            //stopWatch = new Stopwatch();
+            SetSendTimer();
+            StartTcpServer();
+        }
+
+        // clear resources
         public void OnActivityStop()
         {
             StopTcpServer();
             UnsetSendTimer();
+            /**
+             * !!!Important!!!
+             * setting stopWatch = null 
+             * may result in null reference error in OnScrolled() event handler
+             */
+            //stopWatch = null;                        
         }
+
+        #endregion
     }
 }

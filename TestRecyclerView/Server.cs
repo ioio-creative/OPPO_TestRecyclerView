@@ -1,5 +1,4 @@
 ﻿using System.Net.Sockets;
-using System.Timers;
 
 namespace TestRecyclerView
 {
@@ -7,6 +6,7 @@ namespace TestRecyclerView
     {
         private const string ServerIP = "127.0.0.1";
         private const int ServerPort = 10086;
+        private const string MsgDelimiter = "[/TCP]";
 
         private ServerThread st;
         private bool isWaitingForConnection;
@@ -32,7 +32,7 @@ namespace TestRecyclerView
             if (st.IsConnected)
             {
                 isWaitingForConnection = false;
-                st.Send(msg + "[/TCP]");
+                st.Send(msg + MsgDelimiter);
             }
             else
             {

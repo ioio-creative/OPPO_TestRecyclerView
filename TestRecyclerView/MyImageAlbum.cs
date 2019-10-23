@@ -6,7 +6,7 @@ namespace TestRecyclerView
 {
     public class MyImageAlbum
     {
-        private const int initialMinNumImagesRequired = (2562 / 6) * 3;
+        private const int initialMinNumImagesRequired = (2562 / 6) * 12;
 
         private readonly MyImage[] mBuiltInImages;
         //private static MyImage[] mBuiltInImages = new MyImage[]
