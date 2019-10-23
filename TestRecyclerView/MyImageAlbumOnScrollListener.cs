@@ -53,9 +53,9 @@ namespace TestRecyclerView
         //private readonly RecyclerView.LayoutManager mLayoutManager;
         private readonly LinearLayoutManager mLayoutManager;
 
-        public MyImageAlbumOnScrollListener(LinearLayoutManager layoutManager)
+        public MyImageAlbumOnScrollListener(LinearLayoutManager layoutManager) : base()
         {
-            this.mLayoutManager = layoutManager;
+            mLayoutManager = layoutManager;
 
             stopWatch = new Stopwatch();
             SetSendTimer();
@@ -99,7 +99,7 @@ namespace TestRecyclerView
                     // TODO: some magic numbers here.
                     //view.ScrollBy(0, (int)(6 * numItemsPerScreenView * 7.0675));
                     view.ScrollBy(0, (int)(6 * numItemsPerScreenView * 9));
-                }));                
+                }));
             }
 
             // If the total item count is zero and the previous isn't, assume the
@@ -295,6 +295,11 @@ namespace TestRecyclerView
             }
         }
 
+        public void StopTcpServer()
+        {
+            tcpServer.StopServer();
+        }
+
         #endregion
 
 
@@ -303,16 +308,29 @@ namespace TestRecyclerView
         private void SetSendTimer()
         {
             sendTimer = new Timer(sendTimerIntervalInMillis);
-            sendTimer.Elapsed += OnTimedEvent;
+            sendTimer.Elapsed += OnSendTimerTimedEvent;
             sendTimer.AutoReset = true;
             sendTimer.Enabled = true;
         }
 
-        private void OnTimedEvent(object sender, ElapsedEventArgs e)
+        private void UnsetSendTimer()
+        {
+            sendTimer.Dispose();
+        }
+
+        private void OnSendTimerTimedEvent(object sender, ElapsedEventArgs e)
         {
             isInSendWindow = true;
         }
 
         #endregion
+
+
+        // clear resources on activity stop
+        public void OnActivityStop()
+        {
+            StopTcpServer();
+            UnsetSendTimer();
+        }
     }
 }

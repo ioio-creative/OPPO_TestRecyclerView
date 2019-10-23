@@ -25,6 +25,8 @@ namespace TestRecyclerView
         private Thread threadConnect;//連線的Thread
         private Thread threadReceive;//接收資料的Thread
 
+        private readonly Func<Socket> SocketFactory;
+
         public bool IsConnected
         {
             get
@@ -47,23 +49,22 @@ namespace TestRecyclerView
 
         public ServerThread(AddressFamily family, SocketType socketType, ProtocolType protocolType, string ip, int port)
         {
-            serverSocket = new Socket(family, socketType, protocolType);//new server socket object
+            SocketFactory = () => new Socket(family, socketType, protocolType);//new server socket object
             internet.ip = ip;//儲存IP
             internet.port = port;//儲存Port
             receiveMessage = null;//初始化接受的資料            
         }
 
-        //開始傾聽連線需求
-        public void Listen()
-        {
-            //伺服器本身的IP和Port
-            serverSocket.Bind(new IPEndPoint(IPAddress.Parse(internet.ip), internet.port));
-            serverSocket.Listen(1);//最多一次接受多少人連線
-        }
-
         //開始連線
         public void StartConnect()
         {
+            serverSocket = SocketFactory();
+
+            //讓Server socket開始監聽連線
+            //伺服器本身的IP和Port
+            serverSocket.Bind(new IPEndPoint(IPAddress.Parse(internet.ip), internet.port));
+            serverSocket.Listen(1);//最多一次接受多少人連線
+
             //由於連線成功之前程式都會停下，所以必須使用Thread
             threadConnect = new Thread(Accept);
             threadConnect.IsBackground = true;//設定為背景執行續，當程式關閉時會自動結束
@@ -75,7 +76,13 @@ namespace TestRecyclerView
         {
             try
             {
-                clientSocket.Close();
+                if (clientSocket != null)
+                {
+                    clientSocket.Close();
+                }
+
+                // added by Chris
+                serverSocket.Close();
             }
             catch (Exception ex)
             {
@@ -96,8 +103,10 @@ namespace TestRecyclerView
         public void Receive()
         {
             //先判斷原先的threadReceive若還在執行接收檔案的工作，則直接結束
-            if (threadReceive != null && threadReceive.IsAlive == true)
+            if (threadReceive != null && threadReceive.IsAlive)
+            {
                 return;
+            }
             //由於在接收到所有資料前都會停下，所以必須使用Thread
             threadReceive = new Thread(ReceiveMessage);
             threadReceive.IsBackground = true;//設定為背景執行續，當程式關閉時會自動結束
@@ -124,7 +133,7 @@ namespace TestRecyclerView
         {
             try
             {
-                if (clientSocket.Connected == true)//若成功連線才傳遞資料
+                if (clientSocket.Connected)//若成功連線才傳遞資料
                 {
                     //將資料進行編碼並轉為Byte後傳遞
                     clientSocket.Send(Encoding.ASCII.GetBytes(sendMessage));

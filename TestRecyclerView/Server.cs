@@ -1,4 +1,5 @@
 ﻿using System.Net.Sockets;
+using System.Timers;
 
 namespace TestRecyclerView
 {
@@ -10,24 +11,20 @@ namespace TestRecyclerView
         private ServerThread st;
         private bool isWaitingForConnection;
 
-        //private Timer timer = new Timer();
-
-        public Server()
-        {
-            //timer.Elapsed += OnTimedEvent;
-            //timer.Interval = 2000;
-            //timer.AutoReset = true;
-            //timer.Enabled = true;
-        }
+        public Server() {}
 
         public void StartServer()
-        {
+        {            
             //開始連線，設定使用網路、串流、TCP
             st = new ServerThread(AddressFamily.InterNetwork, SocketType.Stream,
-                ProtocolType.Tcp, ServerIP, ServerPort);
-            st.Listen();//讓Server socket開始監聽連線
+                ProtocolType.Tcp, ServerIP, ServerPort);            
             st.StartConnect();//開啟Server socket
             isWaitingForConnection = true;          
+        }
+
+        public void StopServer()
+        {
+            st.StopConnect();
         }
 
         public void Send(string msg)
@@ -47,10 +44,5 @@ namespace TestRecyclerView
                 }
             }
         }
-
-        //private void OnTimedEvent(object sender, ElapsedEventArgs e)
-        //{
-        //    Send("Hi");
-        //}
     }
 }

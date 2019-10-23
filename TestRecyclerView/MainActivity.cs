@@ -40,10 +40,7 @@ namespace TestRecyclerView
             this.Window.SetFlags(WindowManagerFlags.Fullscreen, WindowManagerFlags.Fullscreen);
 
             //set content view AFTER ABOVE sequence (to avoid crash)
-            SetContentView(Resource.Layout.Main);
-
-            // Instantiate the MyImage album:
-            mMyImageAlbum = new MyImageAlbum();
+            SetContentView(Resource.Layout.Main);            
 
             // Get our RecyclerView layout:
             mRecyclerView = FindViewById<RecyclerView>(Resource.Id.recyclerView);
@@ -64,6 +61,9 @@ namespace TestRecyclerView
             //............................................................
             // Adapter Setup:
 
+            // Instantiate the MyImage album:
+            mMyImageAlbum = new MyImageAlbum();
+
             // Create an adapter for the RecyclerView, and pass it the
             // data set (the MyImage album) to manage:
             mAdapter = new MyImageAlbumAdapter(mMyImageAlbum);
@@ -80,7 +80,15 @@ namespace TestRecyclerView
             // needed for recording numItemsPerScreenView during first scroll
             mRecyclerView.SmoothScrollToPosition(mMyImageAlbum.NumImages / 2);
         }
-      
+
+        // clear resources on activity stop
+        protected override void OnStop()
+        {
+            base.OnStop();
+
+            mScrollListener.OnActivityStop();
+        }
+
         public static void Log(object obj)
         {
             if (isDebugLog)

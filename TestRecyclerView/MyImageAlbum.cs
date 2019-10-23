@@ -8,7 +8,7 @@ namespace TestRecyclerView
     {
         private const int initialMinNumImagesRequired = (2562 / 6) * 3;
 
-        private MyImage[] mBuiltInImages;
+        private readonly MyImage[] mBuiltInImages;
         //private static MyImage[] mBuiltInImages = new MyImage[]
         //{
         //    new MyImage { mImageID = Resource.Drawable.scrollBar_new_00001 }
