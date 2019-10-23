@@ -94,9 +94,13 @@ namespace TestRecyclerView
         public void Send(string message)
         {
             if (message == null)
+            {
                 throw new NullReferenceException("message不可為Null");
+            }
             else
+            {
                 sendMessage = message;
+            }
             SendMessage();//由於資料傳遞速度很快，沒必要使用Thread
         }
 
