@@ -81,11 +81,15 @@ namespace TestRecyclerView
             mRecyclerView.SmoothScrollToPosition(mMyImageAlbum.NumImages / 2);
         }
 
-        // clear resources on activity stop
+        protected override void OnStart()
+        {
+            base.OnStart();
+            mScrollListener.OnActivityStart();
+        }
+
         protected override void OnStop()
         {
             base.OnStop();
-
             mScrollListener.OnActivityStop();
         }
 
