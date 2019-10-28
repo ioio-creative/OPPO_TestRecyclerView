@@ -17,9 +17,9 @@ $ magick convert phoneimage.jpg -crop 1080x48 +repage +adjoin phoneimage_1080x48
 The magic number 48 in the command is because of the fact that 1920 is divisible by 48. Therefore, the above command divides a 1080 x 1920 image into fifty 1080 x 48 images.
 
 ## ADB port forwarding for TCP server-client connection using ports of the "same" machine
-To connect a TCP client of [OPPO_TcpClientThread]() to the TCP server run in this phone's program, one has to run the following [ADB port forwarding](https://blog.usejournal.com/adb-port-forwarding-and-reversing-d2bc71835d43) command on the machine which the phone is connected via [ADB](https://developer.android.com/studio/command-line/adb).
+To connect a TCP client of [OPPO_TcpClientThread](#partner-repositories) to the TCP server run in this phone's program, one has to run the following [ADB port forwarding](https://blog.usejournal.com/adb-port-forwarding-and-reversing-d2bc71835d43) command on the machine which the phone is connected via [ADB](https://developer.android.com/studio/command-line/adb).
 ```
 $ adb forward tcp:12580 tcp:10086
 ```
 
-On the other hand, [OPPO_ImageSequence]() is programmed to run the above ADB port forwarding command itself.
+On the other hand, [OPPO_ImageSequence](#partner-repositories) is programmed to run the above ADB port forwarding command itself.
