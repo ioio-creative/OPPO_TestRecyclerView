@@ -3,6 +3,9 @@ A Xamarin Android project.
 
 ## Introduction
 This project is Android phone part of the interactive display for OPPO at [2017 Mobile World Congress (MWC) @Barcelona](http://ioiocreative.com/projects/oppo). It contains a [RecyclerView](https://developer.android.com/reference/android/support/v7/widget/RecyclerView) for scrolling a vertical list of [stripped images](#preparation-of-the-vertical-list-of-stripped-images-for-filling-the-recyclerview). It contains a TCP server. The scrolling speed and scrolled amount of the RecylcerView are sent to a TCP client connected to the phone either via Wifi or a USB cable, through [ADB port forwarding](#adb-port-forwarding-for-tcp-server-client-connection-using-ports-of-the-same-machine). Note the TCP client is not part of this project.
+**2022-03-15 update**
+The original *android.support.v7.widget* package has been migrated and replaced by *andoirdx.recyclerview.widget* and the target Android Framework has been updated to Android 10 - API 29
+
 
 ## Partner repositories
 This project works with either one of the following repositories, which acts as a TCP client.
