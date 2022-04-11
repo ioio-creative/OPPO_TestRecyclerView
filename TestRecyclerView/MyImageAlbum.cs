@@ -6,7 +6,7 @@ namespace TestRecyclerView
 {
     public class MyImageAlbum
     {
-        private const int initialMinNumImagesRequired = (2562 / 6) * 12;
+        private const int initialMinNumImagesRequired = (1340 / 6) * 12;
 
         private readonly MyImage[] mBuiltInImages;
         //private static MyImage[] mBuiltInImages = new MyImage[]
@@ -25,7 +25,7 @@ namespace TestRecyclerView
                 .GetFields();
 
             mBuiltInImages = drawableFieldInfos
-                .Where(drawableFileInfo => (drawableFileInfo.Name.IndexOf("scrollBar_new_") > -1))
+                .Where(drawableFileInfo => (drawableFileInfo.Name.IndexOf("wallpaper_800x20") > -1))
                 //.Take(120)
                 .Select(drawableFileInfo => new MyImage { mImageID = int.Parse(drawableFileInfo.GetValue(null).ToString()) })
                 .ToArray();            
