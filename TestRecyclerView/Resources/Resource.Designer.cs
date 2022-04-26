@@ -85,19 +85,28 @@ namespace TestRecyclerView
 			public const int layoutManager = 2130771985;
 			
 			// aapt resource value: 0x7F010012
-			public const int recyclerViewStyle = 2130771986;
+			public const int nestedScrollViewStyle = 2130771986;
 			
 			// aapt resource value: 0x7F010013
-			public const int reverseLayout = 2130771987;
+			public const int queryPatterns = 2130771987;
 			
 			// aapt resource value: 0x7F010014
-			public const int spanCount = 2130771988;
+			public const int recyclerViewStyle = 2130771988;
 			
 			// aapt resource value: 0x7F010015
-			public const int stackFromEnd = 2130771989;
+			public const int reverseLayout = 2130771989;
 			
 			// aapt resource value: 0x7F010016
-			public const int ttcIndex = 2130771990;
+			public const int shortcutMatchRequired = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int spanCount = 2130771991;
+			
+			// aapt resource value: 0x7F010018
+			public const int stackFromEnd = 2130771992;
+			
+			// aapt resource value: 0x7F010019
+			public const int ttcIndex = 2130771993;
 			
 			static Attribute()
 			{
@@ -274,220 +283,223 @@ namespace TestRecyclerView
 			public const int notify_panel_notification_icon_bg = 2130968588;
 			
 			// aapt resource value: 0x7F04000D
-			public const int wallpaper_800x20_00000 = 2130968589;
+			public const int photoframe = 2130968589;
 			
 			// aapt resource value: 0x7F04000E
-			public const int wallpaper_800x20_00001 = 2130968590;
+			public const int wallpaper_800x20_00000 = 2130968590;
 			
 			// aapt resource value: 0x7F04000F
-			public const int wallpaper_800x20_00002 = 2130968591;
+			public const int wallpaper_800x20_00001 = 2130968591;
 			
 			// aapt resource value: 0x7F040010
-			public const int wallpaper_800x20_00003 = 2130968592;
+			public const int wallpaper_800x20_00002 = 2130968592;
 			
 			// aapt resource value: 0x7F040011
-			public const int wallpaper_800x20_00004 = 2130968593;
+			public const int wallpaper_800x20_00003 = 2130968593;
 			
 			// aapt resource value: 0x7F040012
-			public const int wallpaper_800x20_00005 = 2130968594;
+			public const int wallpaper_800x20_00004 = 2130968594;
 			
 			// aapt resource value: 0x7F040013
-			public const int wallpaper_800x20_00006 = 2130968595;
+			public const int wallpaper_800x20_00005 = 2130968595;
 			
 			// aapt resource value: 0x7F040014
-			public const int wallpaper_800x20_00007 = 2130968596;
+			public const int wallpaper_800x20_00006 = 2130968596;
 			
 			// aapt resource value: 0x7F040015
-			public const int wallpaper_800x20_00008 = 2130968597;
+			public const int wallpaper_800x20_00007 = 2130968597;
 			
 			// aapt resource value: 0x7F040016
-			public const int wallpaper_800x20_00009 = 2130968598;
+			public const int wallpaper_800x20_00008 = 2130968598;
 			
 			// aapt resource value: 0x7F040017
-			public const int wallpaper_800x20_00010 = 2130968599;
+			public const int wallpaper_800x20_00009 = 2130968599;
 			
 			// aapt resource value: 0x7F040018
-			public const int wallpaper_800x20_00011 = 2130968600;
+			public const int wallpaper_800x20_00010 = 2130968600;
 			
 			// aapt resource value: 0x7F040019
-			public const int wallpaper_800x20_00012 = 2130968601;
+			public const int wallpaper_800x20_00011 = 2130968601;
 			
 			// aapt resource value: 0x7F04001A
-			public const int wallpaper_800x20_00013 = 2130968602;
+			public const int wallpaper_800x20_00012 = 2130968602;
 			
 			// aapt resource value: 0x7F04001B
-			public const int wallpaper_800x20_00014 = 2130968603;
+			public const int wallpaper_800x20_00013 = 2130968603;
 			
 			// aapt resource value: 0x7F04001C
-			public const int wallpaper_800x20_00015 = 2130968604;
+			public const int wallpaper_800x20_00014 = 2130968604;
 			
 			// aapt resource value: 0x7F04001D
-			public const int wallpaper_800x20_00016 = 2130968605;
+			public const int wallpaper_800x20_00015 = 2130968605;
 			
 			// aapt resource value: 0x7F04001E
-			public const int wallpaper_800x20_00017 = 2130968606;
+			public const int wallpaper_800x20_00016 = 2130968606;
 			
 			// aapt resource value: 0x7F04001F
-			public const int wallpaper_800x20_00018 = 2130968607;
+			public const int wallpaper_800x20_00017 = 2130968607;
 			
 			// aapt resource value: 0x7F040020
-			public const int wallpaper_800x20_00019 = 2130968608;
+			public const int wallpaper_800x20_00018 = 2130968608;
 			
 			// aapt resource value: 0x7F040021
-			public const int wallpaper_800x20_00020 = 2130968609;
+			public const int wallpaper_800x20_00019 = 2130968609;
 			
 			// aapt resource value: 0x7F040022
-			public const int wallpaper_800x20_00021 = 2130968610;
+			public const int wallpaper_800x20_00020 = 2130968610;
 			
 			// aapt resource value: 0x7F040023
-			public const int wallpaper_800x20_00022 = 2130968611;
+			public const int wallpaper_800x20_00021 = 2130968611;
 			
 			// aapt resource value: 0x7F040024
-			public const int wallpaper_800x20_00023 = 2130968612;
+			public const int wallpaper_800x20_00022 = 2130968612;
 			
 			// aapt resource value: 0x7F040025
-			public const int wallpaper_800x20_00024 = 2130968613;
+			public const int wallpaper_800x20_00023 = 2130968613;
 			
 			// aapt resource value: 0x7F040026
-			public const int wallpaper_800x20_00025 = 2130968614;
+			public const int wallpaper_800x20_00024 = 2130968614;
 			
 			// aapt resource value: 0x7F040027
-			public const int wallpaper_800x20_00026 = 2130968615;
+			public const int wallpaper_800x20_00025 = 2130968615;
 			
 			// aapt resource value: 0x7F040028
-			public const int wallpaper_800x20_00027 = 2130968616;
+			public const int wallpaper_800x20_00026 = 2130968616;
 			
 			// aapt resource value: 0x7F040029
-			public const int wallpaper_800x20_00028 = 2130968617;
+			public const int wallpaper_800x20_00027 = 2130968617;
 			
 			// aapt resource value: 0x7F04002A
-			public const int wallpaper_800x20_00029 = 2130968618;
+			public const int wallpaper_800x20_00028 = 2130968618;
 			
 			// aapt resource value: 0x7F04002B
-			public const int wallpaper_800x20_00030 = 2130968619;
+			public const int wallpaper_800x20_00029 = 2130968619;
 			
 			// aapt resource value: 0x7F04002C
-			public const int wallpaper_800x20_00031 = 2130968620;
+			public const int wallpaper_800x20_00030 = 2130968620;
 			
 			// aapt resource value: 0x7F04002D
-			public const int wallpaper_800x20_00032 = 2130968621;
+			public const int wallpaper_800x20_00031 = 2130968621;
 			
 			// aapt resource value: 0x7F04002E
-			public const int wallpaper_800x20_00033 = 2130968622;
+			public const int wallpaper_800x20_00032 = 2130968622;
 			
 			// aapt resource value: 0x7F04002F
-			public const int wallpaper_800x20_00034 = 2130968623;
+			public const int wallpaper_800x20_00033 = 2130968623;
 			
 			// aapt resource value: 0x7F040030
-			public const int wallpaper_800x20_00035 = 2130968624;
+			public const int wallpaper_800x20_00034 = 2130968624;
 			
 			// aapt resource value: 0x7F040031
-			public const int wallpaper_800x20_00036 = 2130968625;
+			public const int wallpaper_800x20_00035 = 2130968625;
 			
 			// aapt resource value: 0x7F040032
-			public const int wallpaper_800x20_00037 = 2130968626;
+			public const int wallpaper_800x20_00036 = 2130968626;
 			
 			// aapt resource value: 0x7F040033
-			public const int wallpaper_800x20_00038 = 2130968627;
+			public const int wallpaper_800x20_00037 = 2130968627;
 			
 			// aapt resource value: 0x7F040034
-			public const int wallpaper_800x20_00039 = 2130968628;
+			public const int wallpaper_800x20_00038 = 2130968628;
 			
 			// aapt resource value: 0x7F040035
-			public const int wallpaper_800x20_00040 = 2130968629;
+			public const int wallpaper_800x20_00039 = 2130968629;
 			
 			// aapt resource value: 0x7F040036
-			public const int wallpaper_800x20_00041 = 2130968630;
+			public const int wallpaper_800x20_00040 = 2130968630;
 			
 			// aapt resource value: 0x7F040037
-			public const int wallpaper_800x20_00042 = 2130968631;
+			public const int wallpaper_800x20_00041 = 2130968631;
 			
 			// aapt resource value: 0x7F040038
-			public const int wallpaper_800x20_00043 = 2130968632;
+			public const int wallpaper_800x20_00042 = 2130968632;
 			
 			// aapt resource value: 0x7F040039
-			public const int wallpaper_800x20_00044 = 2130968633;
+			public const int wallpaper_800x20_00043 = 2130968633;
 			
 			// aapt resource value: 0x7F04003A
-			public const int wallpaper_800x20_00045 = 2130968634;
+			public const int wallpaper_800x20_00044 = 2130968634;
 			
 			// aapt resource value: 0x7F04003B
-			public const int wallpaper_800x20_00046 = 2130968635;
+			public const int wallpaper_800x20_00045 = 2130968635;
 			
 			// aapt resource value: 0x7F04003C
-			public const int wallpaper_800x20_00047 = 2130968636;
+			public const int wallpaper_800x20_00046 = 2130968636;
 			
 			// aapt resource value: 0x7F04003D
-			public const int wallpaper_800x20_00048 = 2130968637;
+			public const int wallpaper_800x20_00047 = 2130968637;
 			
 			// aapt resource value: 0x7F04003E
-			public const int wallpaper_800x20_00049 = 2130968638;
+			public const int wallpaper_800x20_00048 = 2130968638;
 			
 			// aapt resource value: 0x7F04003F
-			public const int wallpaper_800x20_00050 = 2130968639;
+			public const int wallpaper_800x20_00049 = 2130968639;
 			
 			// aapt resource value: 0x7F040040
-			public const int wallpaper_800x20_00051 = 2130968640;
+			public const int wallpaper_800x20_00050 = 2130968640;
 			
 			// aapt resource value: 0x7F040041
-			public const int wallpaper_800x20_00052 = 2130968641;
+			public const int wallpaper_800x20_00051 = 2130968641;
 			
 			// aapt resource value: 0x7F040042
-			public const int wallpaper_800x20_00053 = 2130968642;
+			public const int wallpaper_800x20_00052 = 2130968642;
 			
 			// aapt resource value: 0x7F040043
-			public const int wallpaper_800x20_00054 = 2130968643;
+			public const int wallpaper_800x20_00053 = 2130968643;
 			
 			// aapt resource value: 0x7F040044
-			public const int wallpaper_800x20_00055 = 2130968644;
+			public const int wallpaper_800x20_00054 = 2130968644;
 			
 			// aapt resource value: 0x7F040045
-			public const int wallpaper_800x20_00056 = 2130968645;
+			public const int wallpaper_800x20_00055 = 2130968645;
 			
 			// aapt resource value: 0x7F040046
-			public const int wallpaper_800x20_00057 = 2130968646;
+			public const int wallpaper_800x20_00056 = 2130968646;
 			
 			// aapt resource value: 0x7F040047
-			public const int wallpaper_800x20_00058 = 2130968647;
+			public const int wallpaper_800x20_00057 = 2130968647;
 			
 			// aapt resource value: 0x7F040048
-			public const int wallpaper_800x20_00059 = 2130968648;
+			public const int wallpaper_800x20_00058 = 2130968648;
 			
 			// aapt resource value: 0x7F040049
-			public const int wallpaper_800x20_00060 = 2130968649;
+			public const int wallpaper_800x20_00059 = 2130968649;
 			
 			// aapt resource value: 0x7F04004A
-			public const int wallpaper_800x20_00061 = 2130968650;
+			public const int wallpaper_800x20_00060 = 2130968650;
 			
 			// aapt resource value: 0x7F04004B
-			public const int wallpaper_800x20_00062 = 2130968651;
+			public const int wallpaper_800x20_00061 = 2130968651;
 			
 			// aapt resource value: 0x7F04004C
-			public const int wallpaper_800x20_00063 = 2130968652;
+			public const int wallpaper_800x20_00062 = 2130968652;
 			
 			// aapt resource value: 0x7F04004D
-			public const int wallpaper_800x20_00064 = 2130968653;
+			public const int wallpaper_800x20_00063 = 2130968653;
 			
 			// aapt resource value: 0x7F04004E
-			public const int wallpaper_800x20_00065 = 2130968654;
+			public const int wallpaper_800x20_00064 = 2130968654;
 			
 			// aapt resource value: 0x7F04004F
-			public const int wallpaper_800x20_00066 = 2130968655;
+			public const int wallpaper_800x20_00065 = 2130968655;
 			
 			// aapt resource value: 0x7F040050
-			public const int wallpaper_800x20_00067 = 2130968656;
+			public const int wallpaper_800x20_00066 = 2130968656;
 			
 			// aapt resource value: 0x7F040051
-			public const int wallpaper_800x20_00068 = 2130968657;
+			public const int wallpaper_800x20_00067 = 2130968657;
 			
 			// aapt resource value: 0x7F040052
-			public const int wallpaper_800x20_00069 = 2130968658;
+			public const int wallpaper_800x20_00068 = 2130968658;
 			
 			// aapt resource value: 0x7F040053
-			public const int wallpaper_800x20_00070 = 2130968659;
+			public const int wallpaper_800x20_00069 = 2130968659;
 			
 			// aapt resource value: 0x7F040054
-			public const int wallpaper_800x20_00071 = 2130968660;
+			public const int wallpaper_800x20_00070 = 2130968660;
+			
+			// aapt resource value: 0x7F040055
+			public const int wallpaper_800x20_00071 = 2130968661;
 			
 			static Drawable()
 			{
@@ -855,6 +867,17 @@ namespace TestRecyclerView
 		public partial class Styleable
 		{
 			
+			// aapt resource value: { 0x7F010013,0x7F010016 }
+			public static int[] Capability = new int[] {
+					2130771987,
+					2130771990};
+			
+			// aapt resource value: 0
+			public const int Capability_queryPatterns = 0;
+			
+			// aapt resource value: 1
+			public const int Capability_shortcutMatchRequired = 1;
+			
 			// aapt resource value: { 0x10101A5,0x101031F,0x7F010000 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
@@ -880,7 +903,7 @@ namespace TestRecyclerView
 					2130771980,
 					2130771981};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F010006,0x7F01000E,0x7F01000F,0x7F010010,0x7F010016 }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F010006,0x7F01000E,0x7F01000F,0x7F010010,0x7F010019 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -891,7 +914,7 @@ namespace TestRecyclerView
 					2130771982,
 					2130771983,
 					2130771984,
-					2130771990};
+					2130771993};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -1006,7 +1029,7 @@ namespace TestRecyclerView
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F010001,0x7F010002,0x7F010003,0x7F010004,0x7F010005,0x7F010011,0x7F010013,0x7F010014,0x7F010015 }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F010001,0x7F010002,0x7F010003,0x7F010004,0x7F010005,0x7F010011,0x7F010015,0x7F010017,0x7F010018 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
@@ -1017,9 +1040,9 @@ namespace TestRecyclerView
 					2130771972,
 					2130771973,
 					2130771985,
-					2130771987,
-					2130771988,
-					2130771989};
+					2130771989,
+					2130771991,
+					2130771992};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;

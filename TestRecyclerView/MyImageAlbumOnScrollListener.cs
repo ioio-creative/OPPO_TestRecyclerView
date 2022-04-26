@@ -42,6 +42,8 @@ namespace TestRecyclerView
         private const int numberOfTimesToSkipBeforeCheckingTopReachedCondition = 30;
         private const int numberOfTimesToSkipSendingAfterTopReached = 10;
 
+        //foreground overlay
+        private RecyclerView viewRef;
 
         #region sendTimer
 
@@ -67,7 +69,9 @@ namespace TestRecyclerView
         // We are given a few useful parameters to help us work out if we need to load some more data,
         // but first we check if we are waiting for the previous load to finish.
         public override void OnScrolled(RecyclerView view, int dx, int dy)
-        {            
+        {
+            viewRef = view;
+            
             int totalItemCount = mLayoutManager.ItemCount;            
             int lastVisibleItemPosition = GetLastVisibleItemPosition();
             
@@ -326,6 +330,15 @@ namespace TestRecyclerView
         private void OnSendTimerTimedEvent(object sender, ElapsedEventArgs e)
         {
             isInSendWindow = true;
+
+            if (viewRef.ScrollState != 0)
+            {
+                viewRef.Foreground.Alpha = 0;
+            }
+            else
+            {
+                viewRef.Foreground.Alpha = Math.Min(viewRef.Foreground.Alpha + 15, 255);
+            }
         }
 
         #endregion

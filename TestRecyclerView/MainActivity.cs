@@ -57,7 +57,6 @@ namespace TestRecyclerView
 
             // Plug the layout manager into the RecyclerView:
             mRecyclerView.SetLayoutManager(mLayoutManager);
-
             //............................................................
             // Adapter Setup:
 
