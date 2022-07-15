@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@android:color/black"
-    >
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:scrollbars="vertical"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:foreground = "@drawable/photoframe"/>
-</LinearLayout>
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground = "@drawable/overlay"/>
+    </LinearLayout>
+    
+    <ImageView 
+        android:layout_centerHorizontal="true"
+        android:layout_width="788px"
+        android:layout_height="329px"
+        android:contentDescription="香港漁業發展史"
+        android:src="@drawable/header"/>
+
+</RelativeLayout>

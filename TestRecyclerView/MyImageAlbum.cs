@@ -25,7 +25,7 @@ namespace TestRecyclerView
                 .GetFields();
 
             mBuiltInImages = drawableFieldInfos
-                .Where(drawableFileInfo => (drawableFileInfo.Name.IndexOf("wallpaper_800x20") > -1))
+                .Where(drawableFileInfo => (drawableFileInfo.Name.IndexOf("scrollimg_800x20") > -1))
                 //.Take(120)
                 .Select(drawableFileInfo => new MyImage { mImageID = int.Parse(drawableFileInfo.GetValue(null).ToString()) })
                 .ToArray();            
